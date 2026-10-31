@@ -36,6 +36,28 @@ Description: stheno分屏插件，适配16.0-17.3.1。
 Name: Stheno
 Author: Crassna
 
+Package: com.wacljcr.qqmixtxtimg
+Architecture: iphoneos-arm64
+Version: 1.2
+Section: Tweaks
+Maintainer: wacljcr
+Installed-Size: 428
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/com.wacljcr.qqmixtxtimg_1.2_iphoneos-arm64.deb
+Size: 54238
+MD5sum: c2277ed9b5999fc8892e84c801ad30f7
+SHA1: da7fab6d30eacff4aa7afaf1bf4cfed67012a490
+SHA256: 61f6cff17f9619c28630e72c6ea2aa49547aba471eda9a5cb07000ad5bf0fe42
+SHA512: 48690c7b142621e2953497cd82499df20607b016b0da61f93b2e8276de326566ff51de5f56bb68e7120a715b92bec0aa60ee91b196a65525eb23d98aafd004da
+Description: 让移动端 QQ 像电脑端一样把「图片 + 文字」合并成一条消息发送。
+ 在聊天发送流程里，把已选图片与输入框文字合并进同一条消息（text element + image element），
+ 不再需要先把图发完再补文字。支持 iOS 14+ rootless 越狱（Dopamine / Relaxin / RootHide）。
+ 设置入口：设置 → QQ图文同发。
+Name: QQ图文同发
+Author: wacljcr
+SileoDepiction: https://wacljcr.github.io/mumu/depictions/com.wacljcr.qqmixtxtimg.json
+Depiction: https://wacljcr.github.io/mumu/depictions/com.wacljcr.qqmixtxtimg.html
+
 Package: com.yuyi.qqurl
 Architecture: iphoneos-arm64
 Version: 0.0.1-1+debug
