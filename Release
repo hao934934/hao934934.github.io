@@ -1,0 +1,15 @@
+Origin: hao934934 的源
+Label: hao934934 的源
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: hao934934 的越狱软件源
+Support: https://hao934934.github.io/hao934934.github.io/
+MD5Sum:
+ 358069bf34651d606c308416ea06205f  800 Packages
+ be2b3c0b8b8858fa17b068da631dc2f1  562 Packages.gz
+SHA256:
+ 5a70fd12c636339ebddd6542ae9a8cfe8bc07b0f6eb36037cdc8fc277861896f  800 Packages
+ 20327f686ea4db0f29f651320088e81b519a76350cdf4a9a4584efcaaa626885  562 Packages.gz

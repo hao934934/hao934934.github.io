@@ -1,0 +1,20 @@
+Package: com.nx.stheno
+Architecture: iphoneos-arm64
+Version: 99.1.12-2~backgroundreuse1
+Section: Tweaks
+Maintainer: Crassna
+Installed-Size: 2956
+Provides: com.h.sthenokb (= 1.1.2-59)
+Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0), firmware (<= 17.3.1)
+Conflicts: com.h.sthenokb
+Replaces: com.h.sthenokb
+Filename: debs/com.nx.stheno_99.1.12-2_backgroundreuse1_iphoneos-arm64.deb
+Size: 532996
+MD5sum: 530fbfcc3e5fdb460d99acb323369062
+SHA1: 43c692e5b554c43baad25a426f6f0e6faf98ed9f
+SHA256: bf17d0fcc6783395ccac313aabdb3578acecc4a3cfc777f9b133c63acb846c3f
+SHA512: 4e597942df9572fafac4c33be23a3f5948bfd065eca3d07c6aca96fd942ba1067a5ca6dff58bd9036fd95c09e0ca581f6fee8d4810333be862e0abb926079dff
+Description: stheno分屏插件，适配16.0-17.3.1。
+Name: Stheno
+Author: Crassna
+
