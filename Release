@@ -1,5 +1,5 @@
-Origin: 豪
-Label: 豪
+Origin: hao934934 的源
+Label: hao934934 的源
 Suite: stable
 Version: 1.0
 Codename: ios
@@ -8,8 +8,8 @@ Components: main
 Description: hao934934 的越狱软件源
 Support: https://hao934934.github.io/hao934934.github.io/
 MD5Sum:
- 358069bf34651d606c308416ea06205f  800 Packages
- be2b3c0b8b8858fa17b068da631dc2f1  562 Packages.gz
+ bac1d5e44775b0675fec7b4e365df8be  1465 Packages
+ 26ba26aff39991e0b9791aa825ac9e50  928 Packages.gz
 SHA256:
- 5a70fd12c636339ebddd6542ae9a8cfe8bc07b0f6eb36037cdc8fc277861896f  800 Packages
- 20327f686ea4db0f29f651320088e81b519a76350cdf4a9a4584efcaaa626885  562 Packages.gz
+ e086e49cd09e32a3003b57da16a5890324bffdae5b787afa04547d4ee24c0639  1465 Packages
+ 951d5a2d426d2f0f09de2e6d95ef65e0c8a343ef2c953dea582aa3645bfc57fb  928 Packages.gz
