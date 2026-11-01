@@ -2,7 +2,6 @@ Package: com.local.alipay.identity-compat
 Architecture: iphoneos-arm64
 Version: 0.1.9
 Priority: optional
-Section: Tweaks
 Maintainer: Local Workspace
 Installed-Size: 268
 Depends: mobilesubstrate
@@ -12,6 +11,7 @@ MD5sum: 007041d85d584d4df160df0f95d2aec0
 SHA1: 64c8b7da017a50d996aeed80b702da62037f1ef3
 SHA256: 4390dcf0b8f38f8f89ba44b0e0b051fdb3e034ee93184767f7bf6a5177f4df31
 SHA512: 1aef9ee28b0efa24296e6ed81bdb50c91ba392d5fbdc3d948633c4e8a0193529d84d61b661d1ecd2c9c82ab3094f07256e34cb9d2d4f50654774f1b167778d80
+Section: 备份
 Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
 Author: Local Workspace
 Name: 支付宝身份验证兼容
@@ -19,7 +19,6 @@ Name: 支付宝身份验证兼容
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
 Version: 9.3.75-2.3.61
-Section: Tweaks
 Maintainer: Hao
 Depends: firmware (>= 14.0), mobilesubstrate | ellekit
 Filename: debs/QQRainbowCandy_9.3.75-2.3.61_iphoneos-arm64.deb
@@ -28,45 +27,46 @@ MD5sum: e959db8a1f2a3d18dc29bbb58cbc2b70
 SHA1: e5587862099acdcf755036b5f3bc32ee3bd026da
 SHA256: 6082663a9f607ec0faaf705f88e4705bc168fb31883a25abf00e66dd1f858a73
 SHA512: 139be49954b3a68b719adc70dbc23712b49da13f2efa84597b939550ad280879f97f507f0c4cac80167183a6197f880596600bddf01b0325e857a9493abd5bc7
+Section: 备份
 Description: QQ 增强插件：截图套壳、图文同发、防撤回、头像框美化、界面净化等
 Name: QQ彩虹糖
 Author: Hao
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.62
-Section: Tweaks
+Version: 9.3.75-2.3.61
 Maintainer: Hao
 Depends: firmware (>= 14.0), mobilesubstrate | ellekit
-Filename: debs/QQRainbowCandy_9.3.75-2.3.62_iphoneos-arm64.deb
-Size: 442800
-MD5sum: 9f98db7ac9ebc32a421a0ed892e351be
-SHA1: 9e20e29d21a2d33200608ce400fad7f2f96c1770
-SHA256: d20c03b18d78cd2dcb06a4786063a4d15dc365cbe89f61ec602540f5e5106af2
-SHA512: 21f2082d4df1f89c7286e97738be15b341a8cde36b655c2715ef9ac979bd6fc0d6742ef4d6df9562850075bd5ca91bfef7d2c0300aaa13338e852eee5242d197
-Description: QQ 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Filename: debs/QQRainbowCandy_9.3.75-2.3.61_iphoneos-arm64.deb
+Size: 440380
+MD5sum: e959db8a1f2a3d18dc29bbb58cbc2b70
+SHA1: e5587862099acdcf755036b5f3bc32ee3bd026da
+SHA256: 6082663a9f607ec0faaf705f88e4705bc168fb31883a25abf00e66dd1f858a73
+SHA512: 139be49954b3a68b719adc70dbc23712b49da13f2efa84597b939550ad280879f97f507f0c4cac80167183a6197f880596600bddf01b0325e857a9493abd5bc7
+Section: 备份
+Description: QQ 增强插件：截图套壳、图文同发、防撤回、头像框美化、界面净化等
 Name: QQ彩虹糖
 Author: Hao
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.63
-Section: Tweaks
+Version: 9.3.75-2.3.61
 Maintainer: Hao
-Filename: debs/QQRainbowCandy_9.3.75-2.3.63_iphoneos-arm64.deb
-Size: 440892
-MD5sum: 216bda41c9892b07f4fd1457507d3661
-SHA1: 7cbc608a7c4bc3f85f156cd02ab00b3dddfc57fe
-SHA256: aac6ffc9b7616990c3f7b64ddf47eeb09b44f72a469cf769c73c935a1c02f999
-SHA512: 6cf71cab2bda9bf4d04feeed852166902befc0cb4385a86f5c265c44b4c7627844a91ebe6ad39e0b4305a627225c5598932d8ebfa89b64fb30c4421f6d6d5fad
-Description: QQ core with built-in audio pack and visual options
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit
+Filename: debs/QQRainbowCandy_9.3.75-2.3.61_iphoneos-arm64.deb
+Size: 440380
+MD5sum: e959db8a1f2a3d18dc29bbb58cbc2b70
+SHA1: e5587862099acdcf755036b5f3bc32ee3bd026da
+SHA256: 6082663a9f607ec0faaf705f88e4705bc168fb31883a25abf00e66dd1f858a73
+SHA512: 139be49954b3a68b719adc70dbc23712b49da13f2efa84597b939550ad280879f97f507f0c4cac80167183a6197f880596600bddf01b0325e857a9493abd5bc7
+Section: 备份
+Description: QQ 增强插件：截图套壳、图文同发、防撤回、头像框美化、界面净化等
 Name: QQ彩虹糖
 Author: Hao
 
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
 Version: 99.1.12-2~backgroundreuse1
-Section: Tweaks
 Maintainer: Crassna
 Installed-Size: 2956
 Provides: com.h.sthenokb (= 1.1.2-59)
@@ -79,6 +79,7 @@ MD5sum: 530fbfcc3e5fdb460d99acb323369062
 SHA1: 43c692e5b554c43baad25a426f6f0e6faf98ed9f
 SHA256: bf17d0fcc6783395ccac313aabdb3578acecc4a3cfc777f9b133c63acb846c3f
 SHA512: 4e597942df9572fafac4c33be23a3f5948bfd065eca3d07c6aca96fd942ba1067a5ca6dff58bd9036fd95c09e0ca581f6fee8d4810333be862e0abb926079dff
+Section: 备份
 Description: stheno分屏插件，适配16.0-17.3.1。
 Name: Stheno
 Author: Crassna
@@ -86,7 +87,6 @@ Author: Crassna
 Package: com.wacljcr.qqmixtxtimg
 Architecture: iphoneos-arm64
 Version: 1.2
-Section: Tweaks
 Maintainer: wacljcr
 Installed-Size: 428
 Depends: firmware (>= 14.0), mobilesubstrate | ellekit, preferenceloader
@@ -96,6 +96,7 @@ MD5sum: c2277ed9b5999fc8892e84c801ad30f7
 SHA1: da7fab6d30eacff4aa7afaf1bf4cfed67012a490
 SHA256: 61f6cff17f9619c28630e72c6ea2aa49547aba471eda9a5cb07000ad5bf0fe42
 SHA512: 48690c7b142621e2953497cd82499df20607b016b0da61f93b2e8276de326566ff51de5f56bb68e7120a715b92bec0aa60ee91b196a65525eb23d98aafd004da
+Section: 备份
 Description: 让移动端 QQ 像电脑端一样把「图片 + 文字」合并成一条消息发送。
  在聊天发送流程里，把已选图片与输入框文字合并进同一条消息（text element + image element），
  不再需要先把图发完再补文字。支持 iOS 14+ rootless 越狱（Dopamine / Relaxin / RootHide）。
@@ -108,7 +109,6 @@ Depiction: https://wacljcr.github.io/mumu/depictions/com.wacljcr.qqmixtxtimg.htm
 Package: com.yuyi.qqurl
 Architecture: iphoneos-arm64
 Version: 0.0.1-1+debug
-Section: 自制
 Maintainer: yuyi
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -118,7 +118,7 @@ MD5sum: b29a8c4cac38638d23f7181b23d4c85d
 SHA1: 69245fa82a532593cef9841aee8e6305d77a756d
 SHA256: b523dc550855a7f97d54a2a175657025f1c939bd1fc9d72bd802693655f7ceae
 SHA512: e7365b1c43e2bcad914e99da860a7b91c0205787bf599259d8f87e68e5f8864b469376cb3f347bbf44254ff75ce97c0140fb1b56e38075461233afa6369d646e
+Section: 自用
 Description: QQ外链强开
 Name: qqurl
 Author: yuyi
-
