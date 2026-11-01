@@ -107,3 +107,17 @@ Description: QQ外链强开
 Name: qqurl
 Author: yuyi
 
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.63
+Section: Tweaks
+Maintainer: Local Build
+Filename: debs/local.qqallinone.control_9.3.75-2.3.63_iphoneos-arm64.deb
+Size: 440472
+MD5sum: 6b93fef809b09f77da3bdd29e5b27288
+SHA1: ba90987b44691f0eeb7b3714d7cb791a41341ecc
+SHA256: 3ad0167af1b9ab70e291e23ac257bb7d3c2c833f2dede382193e5436947e7c4b
+SHA512: 01cc515b1d49dc8645df1b8116ea564f0a07c959cc2068b1c03e9dc423f8aeb995b524b660bd598d38f36aa6a85da260217081322a01a8020a81114be4ba1226
+Description: QQ core with built-in audio pack and visual options
+Name: QQ彩虹糖
+
