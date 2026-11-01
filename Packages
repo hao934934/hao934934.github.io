@@ -122,6 +122,22 @@ Author: wacljcr
 SileoDepiction: https://wacljcr.github.io/mumu/depictions/com.wacljcr.qqmixtxtimg.json
 Depiction: https://wacljcr.github.io/mumu/depictions/com.wacljcr.qqmixtxtimg.html
 
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.61
+Maintainer: Hao
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit
+Filename: debs/QQRainbowCandy_9.3.75-2.3.61_iphoneos-arm64.deb
+Size: 440380
+MD5sum: e959db8a1f2a3d18dc29bbb58cbc2b70
+SHA1: e5587862099acdcf755036b5f3bc32ee3bd026da
+SHA256: 6082663a9f607ec0faaf705f88e4705bc168fb31883a25abf00e66dd1f858a73
+SHA512: 139be49954b3a68b719adc70dbc23712b49da13f2efa84597b939550ad280879f97f507f0c4cac80167183a6197f880596600bddf01b0325e857a9493abd5bc7
+Section: 备份
+Description: QQ 增强插件：截图套壳、图文同发、防撤回、头像框美化、界面净化等
+Name: QQ彩虹糖
+Author: Hao
+
 Package: com.yuyi.qqurl
 Architecture: iphoneos-arm64
 Version: 0.0.1-1+debug
