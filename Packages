@@ -18,46 +18,31 @@ Name: 支付宝身份验证兼容
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.63
+Version: 9.3.75-2.3.64
 Maintainer: Hao
-Filename: debs/QQRainbowCandy_9.3.75-2.3.63_iphoneos-arm64.deb
-Size: 440892
-MD5sum: 216bda41c9892b07f4fd1457507d3661
-SHA1: 7cbc608a7c4bc3f85f156cd02ab00b3dddfc57fe
-SHA256: aac6ffc9b7616990c3f7b64ddf47eeb09b44f72a469cf769c73c935a1c02f999
-SHA512: 6cf71cab2bda9bf4d04feeed852166902befc0cb4385a86f5c265c44b4c7627844a91ebe6ad39e0b4305a627225c5598932d8ebfa89b64fb30c4421f6d6d5fad
+Filename: debs/QQRainbowCandy_9.3.75-2.3.64_iphoneos-arm64.deb
+Size: 441196
+MD5sum: 19dd56e834956f547b6611ee77ea7f58
+SHA1: 43fe88e277200095354d034559264d710ccebe5e
+SHA256: 8e7101627a344ab8d4f0144faf46b6cc50c6983f511d2e4b6ff22e2fe8e163fe
+SHA512: 85cf79efd2f352a1cbbf60d6b1d2a5785f66df43ba6abf941d4e9a814736b42afc752b899c2dcbd5d043c4c17adbbfaefe2d02367a5d8786e55e0cfc847f7bec
 Section: 备份
-Description: QQ core with built-in audio pack and visual options
+Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
 Name: QQ彩虹糖
 Author: Hao
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.63
+Version: 9.3.75-2.3.64
 Maintainer: Hao
-Filename: debs/QQRainbowCandy_9.3.75-2.3.63_iphoneos-arm64.deb
-Size: 440892
-MD5sum: 216bda41c9892b07f4fd1457507d3661
-SHA1: 7cbc608a7c4bc3f85f156cd02ab00b3dddfc57fe
-SHA256: aac6ffc9b7616990c3f7b64ddf47eeb09b44f72a469cf769c73c935a1c02f999
-SHA512: 6cf71cab2bda9bf4d04feeed852166902befc0cb4385a86f5c265c44b4c7627844a91ebe6ad39e0b4305a627225c5598932d8ebfa89b64fb30c4421f6d6d5fad
+Filename: debs/QQRainbowCandy_9.3.75-2.3.64_iphoneos-arm64.deb
+Size: 441196
+MD5sum: 19dd56e834956f547b6611ee77ea7f58
+SHA1: 43fe88e277200095354d034559264d710ccebe5e
+SHA256: 8e7101627a344ab8d4f0144faf46b6cc50c6983f511d2e4b6ff22e2fe8e163fe
+SHA512: 85cf79efd2f352a1cbbf60d6b1d2a5785f66df43ba6abf941d4e9a814736b42afc752b899c2dcbd5d043c4c17adbbfaefe2d02367a5d8786e55e0cfc847f7bec
 Section: 备份
-Description: QQ core with built-in audio pack and visual options
-Name: QQ彩虹糖
-Author: Hao
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.63
-Maintainer: Hao
-Filename: debs/QQRainbowCandy_9.3.75-2.3.63_iphoneos-arm64.deb
-Size: 440892
-MD5sum: 216bda41c9892b07f4fd1457507d3661
-SHA1: 7cbc608a7c4bc3f85f156cd02ab00b3dddfc57fe
-SHA256: aac6ffc9b7616990c3f7b64ddf47eeb09b44f72a469cf769c73c935a1c02f999
-SHA512: 6cf71cab2bda9bf4d04feeed852166902befc0cb4385a86f5c265c44b4c7627844a91ebe6ad39e0b4305a627225c5598932d8ebfa89b64fb30c4421f6d6d5fad
-Section: 备份
-Description: QQ core with built-in audio pack and visual options
+Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
 Name: QQ彩虹糖
 Author: Hao
 
