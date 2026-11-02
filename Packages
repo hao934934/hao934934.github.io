@@ -16,6 +16,21 @@ Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
 Author: Local Workspace
 Name: 支付宝身份验证兼容
 
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.65
+Maintainer: Hao
+Filename: debs/QQRainbowCandy_9.3.75-2.3.65_iphoneos-arm64.deb
+Size: 446396
+MD5sum: 40198ae790b42e8a3bbf7f9aa5c5ce7d
+SHA1: 75428801989cb6b0000e56dabe436c38efcf4f98
+SHA256: e0510a1a12b52e831dbc3388af039b9adb27cb98a5cd22eeb5cdd417458ff387
+SHA512: 7276cddf6f18028c81946501d104262d5ef03ca6636dd46e11fb247bcaff4b9e16ff56f4183bdf124cac187c59ff91e4749a50c59c779f593b3006786d0ad46e
+Section: 备份
+Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Name: QQ彩虹糖
+Author: Hao
+
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
 Version: 99.1.12-2~backgroundreuse1
