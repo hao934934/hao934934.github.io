@@ -1,16 +1,16 @@
-Origin: 豪 😘
-Label: 豪 😘
+Origin: 😘豪
+Label: 😘豪
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 豪 😘
+Description: 😘豪
 Support: https://hao934934.github.io/hao934934.github.io/
 Icon: https://hao934934.github.io/hao934934.github.io/CydiaIcon.png
 MD5Sum:
  b898cd9cb93ec2b14ef1e25e3a47ee59  4599 Packages
- 410f700943710921f45e55dfbe3021da  2613 Packages.gz
+ 3d910974cbf3dde142185d55e6e53876  2613 Packages.gz
 SHA256:
  29bc89747a6401b72194b6e4b79f32191f893615c7b08fefb850e90246535faf  4599 Packages
- 5e6c069f25f982b6e177c0690ff31519295c99b2007740db1023a4ee9969da31  2613 Packages.gz
+ c3e3bbdb5f00a095f428533cf3f59bf9fddec826b27e6d6b49f8f9257eaed80e  2613 Packages.gz
