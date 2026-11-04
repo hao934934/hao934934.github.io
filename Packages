@@ -103,6 +103,23 @@ Author: wacljcr
 SileoDepiction: https://wacljcr.github.io/mumu/depictions/com.wacljcr.qqmixtxtimg.json
 Depiction: https://wacljcr.github.io/mumu/depictions/com.wacljcr.qqmixtxtimg.html
 
+Package: com.yuyi.mdd
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: yuyi <1>
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.yuyi.mdd_0.0.2_iphoneos-arm64.deb
+Size: 2442
+MD5sum: b322e213a47797ca32f3dc020a8d93bb
+SHA1: ff14fa012197662d28e11b89b651f6724151d3e0
+SHA256: f3fa5fb13d88bf921be21665ee952d4572ba92dfb6955e43a029b61191cb930e
+SHA512: ca6ac3dbe3650237ca5a6514a3251d7589d138865a190a33db2faa38650f6f4ba107a5a6e3bb02d80aa00b85b48d19076d6a06f33ba6f00d1981fd4f4d1abd07
+Section: 备份
+Description: 埋堆堆5.2.41去开屏广告
+Name: 埋堆堆 去开屏
+Author: 余忆
+
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
 Version: 1.4.4
