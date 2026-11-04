@@ -31,6 +31,22 @@ Description: 增强插件：截图套壳、图文同发、防撤回、头像框�
 Name: QQ彩虹糖
 Author: Hao
 
+Package: com.minis.qqmultigroupsign
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: minis
+Depends: firmware (>= 15.0)
+Filename: debs/com.minis.qqmultigroupsign_1.1.0_iphoneos-arm64.deb
+Size: 43112
+MD5sum: 020a8c1cbd17a8399de632d0966923ca
+SHA1: e99b5d237c3667d379685aad341bfa95924c60d7
+SHA256: d3877960f00436ed81ccacb2b6a3b85e76c377bb5e8640458e828fe3c622f673
+SHA512: c5d543bfb4148f0647093dd8954d8ad3bd9f698a1aec23812d103e6def98947cba00a4f3580b370fb5e0c4af4d728b6677f3b77223eed52e2d4cab4a803d73d7
+Section: 备份
+Description: 每天定点在后台静默完成多个 QQ 群的签到打卡，无需打开聊天窗口。内置抓包探针。
+Name: QQ 多群自动静默打卡
+Author: minis
+
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
 Version: 99.1.12-2~backgroundreuse1
