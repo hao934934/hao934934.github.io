@@ -37,11 +37,11 @@ Version: 1.1.0
 Maintainer: minis
 Depends: firmware (>= 15.0)
 Filename: debs/com.minis.qqmultigroupsign_1.1.0_iphoneos-arm64.deb
-Size: 43112
-MD5sum: 020a8c1cbd17a8399de632d0966923ca
-SHA1: e99b5d237c3667d379685aad341bfa95924c60d7
-SHA256: d3877960f00436ed81ccacb2b6a3b85e76c377bb5e8640458e828fe3c622f673
-SHA512: c5d543bfb4148f0647093dd8954d8ad3bd9f698a1aec23812d103e6def98947cba00a4f3580b370fb5e0c4af4d728b6677f3b77223eed52e2d4cab4a803d73d7
+Size: 43126
+MD5sum: 725cffd05ee0ce7efb03465fc8052b7a
+SHA1: 9d7180ffe677f98e78fb430bceed2c9710a69d7b
+SHA256: 347ce33b1513f2a342606fca51a50431f961b6e6d224b77353aa1edaae2e1154
+SHA512: d2324f75cc9d5d9200193d55194e44002e1bc02c707ba86df1010378e1c52ca42b79efd1d505eb79adaf43c0b736c9115ea3cf79c111bd213a55150cbbf60f76
 Section: 备份
 Description: 每天定点在后台静默完成多个 QQ 群的签到打卡，无需打开聊天窗口。内置抓包探针。
 Name: QQ 多群自动静默打卡
