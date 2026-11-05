@@ -31,6 +31,21 @@ Description: 增强插件：截图套壳、图文同发、防撤回、头像框�
 Name: QQ彩虹糖
 Author: Hao
 
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.78
+Maintainer: Hao
+Filename: debs/QQRainbowCandy_9.3.75-2.3.78_iphoneos-arm64.deb
+Size: 464992
+MD5sum: c09099b752ee599efc216680e03b8411
+SHA1: 6372478c9bc8d7ce41902101a2caed185e471b11
+SHA256: bfb919c46a3d5d2b8e6d9168acae89e20e4f2dd161b1d83130f513025f81abd4
+SHA512: 21ee823eb37cbb0901be294176ae37bf9927e4bf047e6bb7fad85123c7bcb42c38e001fbf1594eb7e6039b79973a6d79e1b693522b1556b1dbed1f5b5da810ab
+Section: 备份
+Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Name: QQ彩虹糖
+Author: Hao
+
 Package: com.minis.qqmultigroupsign
 Architecture: iphoneos-arm64
 Version: 1.1.0
