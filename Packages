@@ -46,6 +46,23 @@ Description: 增强插件：截图套壳、图文同发、防撤回、头像框�
 Name: QQ彩虹糖
 Author: Hao
 
+Package: com.ming.qqgroupscan
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Maintainer: ming
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/com.ming.qqgroupscan_1.0.0-1_debug_iphoneos-arm64.deb
+Size: 36742
+MD5sum: 807946897247a53548509f5746294e31
+SHA1: 50d32817069c8744f22686a09d55014a7052db25
+SHA256: 07697f1fedc7de83b69d5e40fa822b4caf3e75f85b998bcb971fde0c2c895fd9
+SHA512: 45490fe0ecd8ae8a0d73eb493f9d9050664f0c028ceabebd572ee21f7885107c6615165f9b708b243380bdc620ba521098c518c54d21232f753f34710e1c42d8
+Section: 备份
+Description: QQ 多群签到增量模块：扫描群组列表（只读扫描，多选添加）
+Name: QQGroupScan
+Author: ming
+
 Package: com.minis.qqmultigroupsign
 Architecture: iphoneos-arm64
 Version: 1.1.0
