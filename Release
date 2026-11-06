@@ -8,9 +8,10 @@ Components: main
 Description: 😘豪啊豪
 Support: https://hao934934.github.io/
 Icon: https://hao934934.github.io/CydiaIcon.png
+Banner: https://hao934934.github.io/hao-banner.jpg
 MD5Sum:
  69de21019696ff9727265cb51bdee5e2  10869 Packages
- 19b5b41869328bf757d4b3466d6091fe  4956 Packages.gz
+ 4bb468fc40259b14c7546646371cad61  4956 Packages.gz
 SHA256:
  1668dfe914449f31ad6891327c427cfcb89c19e55202469f156eceba45be88d2  10869 Packages
- 3fe067c43885c8de41e0bdc19d3f0b17e47638fbb3b47e807a95c2e503ff1b18  4956 Packages.gz
+ 8c057d3baa7dddabdfd647b8016b52f035f9e0e7307de534a1b345914d90db5b  4956 Packages.gz
