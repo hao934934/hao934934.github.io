@@ -1,4 +1,5 @@
-import sys,json
+
+import sys,json,subprocess
 # 分类配置 sections.json：
 #   {"sections":[{"name":"显示名","orig":"原分类","pkgs":["包名", "-排除包名"]}], "other":"其它"}
 # 规则：
@@ -46,6 +47,19 @@ for b in blocks:
             cur=l.split(':',1)[1].strip()
             if cur==OTHER_OUT: cur=OTHER   # 带前缀的兜底分类还原成「其它」
     pkgs.append({'pkg':pkg,'sec':cur,'block':b})
+
+# 同包保留 Debian 规则下的最新版本，避免 setdefault 固定选择旧包。
+def version_of(p):
+    return next((line.split(':',1)[1].strip() for line in p['block'].split(NL)
+                 if line.startswith('Version:')), '0')
+latest={}
+for p in pkgs:
+    old=latest.get(p['pkg'])
+    if old is None or subprocess.run(
+        ['dpkg','--compare-versions',version_of(p),'gt',version_of(old)],
+        check=False).returncode==0:
+        latest[p['pkg']]=p
+pkgs=list(latest.values())
 
 # 计算每个分类收哪些包
 members={}   # 分类名 -> [包名]
