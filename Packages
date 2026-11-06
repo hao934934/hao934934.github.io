@@ -18,14 +18,14 @@ Name: 支付宝身份验证兼容
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.98
+Version: 9.3.75-2.3.99
 Maintainer: Hao
-Filename: debs/QQRainbowCandy_9.3.75-2.3.98_iphoneos-arm64.deb
-Size: 494252
-MD5sum: 937cd557d73da538fc972529b7516a1b
-SHA1: 41777c4004dd94798b130058153eff4e17fddcb7
-SHA256: deef162057ac15ff5be382fc64b822e33d8192aab7b323d1a4a0b59754f8f629
-SHA512: 6e7103428f1799bb5d9a3133e5b99ec39ea9023dd51882b6e37601cfe46ad1d943ef8d28c2724dedb4b771c61df359cf46e7d9bd09f81af65fdde17f2c8aa612
+Filename: debs/QQRainbowCandy_9.3.75-2.3.99_iphoneos-arm64.deb
+Size: 494692
+MD5sum: 8be3ecb6afc8752f0d403873871661c4
+SHA1: f6ddc4da7e8e597ce640fd0ddf841ebd26ea13fb
+SHA256: e67b39be71a196e4dec90813c3216a0819f76fd585b0b6aaa74a44fee8217189
+SHA512: 9fd9dc29b1ff5cf157a81454beffde4056e8d4a3462979cf3f92c270896ecb5ff1132672ed44331fbc4156f4e88f753428365168b015254f5562c55c6d2dd81c
 Section: 备份
 Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
 Name: QQ彩虹糖
