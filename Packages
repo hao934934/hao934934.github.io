@@ -18,6 +18,21 @@ Name: 支付宝身份验证兼容
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.102
+Maintainer: Hao
+Filename: debs/QQRainbowCandy_9.3.75-2.3.102_iphoneos-arm64.deb
+Size: 495020
+MD5sum: 56de95bd5a80fbcff528c3236abafbb8
+SHA1: 90f0bca001c79b14bc0bcb808b50c13ceb09307a
+SHA256: b7be7f11e3b1e17cea102d149a4f5ce2c162ecff0658ae5e54f21575596f3644
+SHA512: 69947a817130ba800e408df741fac98a357c4272ac4361ee5d6efa4dd9dcfce288b5e6099f86ad2df35cdaa0b6022c9951e9663f2365972cbaa86a6a4e23a55c
+Section: 备份
+Description: 修复私聊头像下时间
+Name: QQ彩虹糖
+Author: Hao
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
 Version: 9.3.75-2.3.80
 Maintainer: Hao
 Filename: debs/QQRainbowCandy_9.3.75-2.3.80_iphoneos-arm64.deb
