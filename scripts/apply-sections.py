@@ -1,4 +1,5 @@
 
+
 import sys,json,subprocess
 # 分类配置 sections.json：
 #   {"sections":[{"name":"显示名","orig":"原分类","pkgs":["包名", "-排除包名"]}], "other":"其它"}
@@ -48,19 +49,6 @@ for b in blocks:
             if cur==OTHER_OUT: cur=OTHER   # 带前缀的兜底分类还原成「其它」
     pkgs.append({'pkg':pkg,'sec':cur,'block':b})
 
-# 同包保留 Debian 规则下的最新版本，避免 setdefault 固定选择旧包。
-def version_of(p):
-    return next((line.split(':',1)[1].strip() for line in p['block'].split(NL)
-                 if line.startswith('Version:')), '0')
-latest={}
-for p in pkgs:
-    old=latest.get(p['pkg'])
-    if old is None or subprocess.run(
-        ['dpkg','--compare-versions',version_of(p),'gt',version_of(old)],
-        check=False).returncode==0:
-        latest[p['pkg']]=p
-pkgs=list(latest.values())
-
 # 计算每个分类收哪些包
 members={}   # 分类名 -> [包名]
 claimed=set()
@@ -84,15 +72,12 @@ if user_other:
 
 # 输出：包按分类顺序展开，同一包属于多个分类就出现多条
 out=[]; multi=0
-bypkg={}
-for p in pkgs: bypkg.setdefault(p['pkg'],p)
 done_names=set()
 for s in sections:
     if s['name'] in done_names: continue   # 同名分类已经合并输出过
     done_names.add(s['name'])
-    for name in [p['pkg'] for p in pkgs if p['pkg'] in members[s['name']]]:
-        src=bypkg.get(name)
-        if not src: continue
+    for src in pkgs:
+        if src['pkg'] not in members[s['name']]: continue
         lines=[l for l in src['block'].split(NL) if not l.startswith('Section:')]
         # Section 放在 Description 之前，和 apt-ftparchive 的输出顺序一致
         at=len(lines)
@@ -100,9 +85,8 @@ for s in sections:
             if l.startswith('Description:'): at=i; break
         lines.insert(at,'Section: '+s['name'])
         out.append(NL.join(lines)); multi+=1
-for name in [p['pkg'] for p in pkgs if p['pkg'] in rest]:
-    src=bypkg.get(name)
-    if not src: continue
+for src in pkgs:
+    if src['pkg'] not in rest: continue
     lines=[l for l in src['block'].split(NL) if not l.startswith('Section:')]
     at=len(lines)
     for i,l in enumerate(lines):
