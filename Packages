@@ -18,6 +18,51 @@ Name: 支付宝身份验证兼容
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.80
+Maintainer: Hao
+Filename: debs/QQRainbowCandy_9.3.75-2.3.80_iphoneos-arm64.deb
+Size: 492620
+MD5sum: 3cf18cc4063d960914a7027202eaaa98
+SHA1: 5684c31f0e0924fbc65c79fdbf57e3d0e3c6059b
+SHA256: 51b7b4d96be46b8a93ad720fa9b8456bb20fddf0ea5f35d5d853fce2c6f13fb2
+SHA512: a03d219c60569a20f4d7280fee31ed9acd63fd1101eb1babe84510be8d2fd87579a40d12e3f856163249f8378462805db78a136fb11b9e7ef6d79e2b9ee8fff7
+Section: 备份
+Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Name: QQ彩虹糖
+Author: Hao
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.97
+Maintainer: Hao
+Filename: debs/QQRainbowCandy_9.3.75-2.3.97_iphoneos-arm64.deb
+Size: 493748
+MD5sum: f7c5d150848d965558a50c7a8511246f
+SHA1: dba9df2182ee2a4b93a953c24e807cb4c9da8205
+SHA256: d4e4a5c353cb866f8e30f03b6e884545250e57a80b73b13a0ed6522985e35a05
+SHA512: 501b6a5d894e5086269afbfabf200e23ed55e92f2aeca4425425c2f476a070125adc7585e18f7f2dadd7fdc1d64e11d90d2e4e95d3974c5799d6122271600608
+Section: 备份
+Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Name: QQ彩虹糖
+Author: Hao
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.98
+Maintainer: Hao
+Filename: debs/QQRainbowCandy_9.3.75-2.3.98_iphoneos-arm64.deb
+Size: 494252
+MD5sum: 937cd557d73da538fc972529b7516a1b
+SHA1: 41777c4004dd94798b130058153eff4e17fddcb7
+SHA256: deef162057ac15ff5be382fc64b822e33d8192aab7b323d1a4a0b59754f8f629
+SHA512: 6e7103428f1799bb5d9a3133e5b99ec39ea9023dd51882b6e37601cfe46ad1d943ef8d28c2724dedb4b771c61df359cf46e7d9bd09f81af65fdde17f2c8aa612
+Section: 备份
+Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Name: QQ彩虹糖
+Author: Hao
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
 Version: 9.3.75-2.3.99
 Maintainer: Hao
 Filename: debs/QQRainbowCandy_9.3.75-2.3.99_iphoneos-arm64.deb
@@ -63,6 +108,22 @@ Section: 备份
 Description: QQ 多群签到增量模块：扫描群组列表（只读扫描，多选添加）
 Name: QQGroupScan
 Author: ming
+
+Package: com.minis.qqmultigroupsign
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: minis
+Depends: firmware (>= 15.0)
+Filename: debs/com.minis.qqmultigroupsign_1.1.0_iphoneos-arm64.deb
+Size: 43126
+MD5sum: 725cffd05ee0ce7efb03465fc8052b7a
+SHA1: 9d7180ffe677f98e78fb430bceed2c9710a69d7b
+SHA256: 347ce33b1513f2a342606fca51a50431f961b6e6d224b77353aa1edaae2e1154
+SHA512: d2324f75cc9d5d9200193d55194e44002e1bc02c707ba86df1010378e1c52ca42b79efd1d505eb79adaf43c0b736c9115ea3cf79c111bd213a55150cbbf60f76
+Section: 备份
+Description: 每天定点在后台静默完成多个 QQ 群的签到打卡，无需打开聊天窗口。内置抓包探针。
+Name: QQ 多群自动静默打卡
+Author: minis
 
 Package: com.minis.qqmultigroupsign
 Architecture: iphoneos-arm64
