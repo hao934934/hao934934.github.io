@@ -36,5 +36,6 @@ gen_hashes(){ local alg="$1"; shift; local f; for f in "$@"; do [ -f "$f" ] || c
   echo "Description: 😘豪啊豪"; echo "Support: $REPO_URL";
   # Icon 必须写绝对地址：Sileo/Zebra 只认 Release 里的 Icon 行，不会自己去找 CydiaIcon.png
   echo "Icon: ${REPO_URL%/}/CydiaIcon.png";
+  echo "Banner: ${REPO_URL%/}/hao-banner.jpg";
   echo "MD5Sum:"; gen_hashes md5 Packages Packages.gz; echo "SHA256:"; gen_hashes sha256 Packages Packages.gz; } > Release
 echo "索引完成: $(grep -c '^Package:' Packages) 个包"
