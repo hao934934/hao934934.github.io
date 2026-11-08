@@ -137,6 +137,23 @@ Description: 让 QQ 以为当前设备是 iPad，
 Name: QQ iPad 模式登录
 Author: Hao
 
+Package: com.llld.xc
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 来了老弟
+Installed-Size: 452
+Depends: mobilesubstrate
+Filename: debs/com.llld.xc_1.1_iphoneos-arm64.deb
+Size: 76056
+MD5sum: f2546431656b3dadf86173f006622f21
+SHA1: 82016a6cc9bbd88c3b6d5face3374a848189faf0
+SHA256: c99f7dbc4bd72cf14f3c27a4801547d3f868b6189f5d89d6df5d24a356eb5a45
+SHA512: df7de9b9c412148b331e9889955b05d98aed1fcdd7443e3f326ca6305d681fba6c64c96dab0c10a3d2d37e92ac530bb37c41f81b805b68697184e42462231966
+Section: 备份
+Description: 相册增强：照片角标（分辨率/文件大小/拍摄日期/文件名）、自建视频与图片管理页（排序、多选、原生删除）、相簿统计。
+Name: 相册增强
+Author: 来了老弟
+
 Package: com.ming.qqgroupscan
 Architecture: iphoneos-arm64
 Version: 1.0.0-1+debug
