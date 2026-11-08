@@ -48,21 +48,6 @@ Author: Hao
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.105
-Maintainer: Hao
-Filename: debs/QQRainbowCandy_9.3.75-2.3.105_iphoneos-arm64.deb
-Size: 499784
-MD5sum: 5868efb2695d1b7331a8d3ce167658e9
-SHA1: d1a39e70040b3bcd24a03133d169a0213a8773cf
-SHA256: c499943dd3cef7736110fd71ecc1021ee181d86047557489296276e34c699c1e
-SHA512: 018247fba7aa1db7ea00c3680bb928ee597136c6ebb9197ea9987361d09ed8d71875df26d110dd9e4201093f3acbb646c6afadf1bb38547c95e2302e5bdecb70
-Section: 备份
-Description: 新增QQ空间去广告
-Name: QQ彩虹糖
-Author: Hao
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
 Version: 9.3.75-2.3.80
 Maintainer: Hao
 Filename: debs/QQRainbowCandy_9.3.75-2.3.80_iphoneos-arm64.deb
