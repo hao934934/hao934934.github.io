@@ -27,7 +27,7 @@ SHA1: 90f0bca001c79b14bc0bcb808b50c13ceb09307a
 SHA256: b7be7f11e3b1e17cea102d149a4f5ce2c162ecff0658ae5e54f21575596f3644
 SHA512: 69947a817130ba800e408df741fac98a357c4272ac4361ee5d6efa4dd9dcfce288b5e6099f86ad2df35cdaa0b6022c9951e9663f2365972cbaa86a6a4e23a55c
 Section: 备份
-Description: 修复私聊头像下时间
+Description: 设置入口
 Name: QQ彩虹糖
 Author: Hao
 
@@ -42,7 +42,7 @@ SHA1: 461fbd84a699f86564806f8310c5988fda202062
 SHA256: 658794c6bf78759ef43571346abef20ddc4abfca8f3e20631ffe3e8c5529087b
 SHA512: f372064fea315050859fca3bf6d71dfb0cfb38c724571edf027d54e1457addf584d86b4248b86837cc58b7b9f0657e5f22fe7f0b0b6d50075284389165d73a79
 Section: 备份
-Description: 悬浮球问题
+Description: 设置入口
 Name: QQ彩虹糖
 Author: Hao
 
@@ -57,7 +57,7 @@ SHA1: 0f55692845f25726147f92a94eabd9efffa12143
 SHA256: 65aa541c200ff1db8f7aadee909e364ea5e6330f3f7a83781d1f29dd7f01852c
 SHA512: df8f733ff636a023a9be5dceb8407f5c4966bb97b3b1c9555566aaae818bbfa95767da51b3d66818dbe35083d67b57d2faed89c2df68034e34007c3da6ce9d4e
 Section: 备份
-Description: 新增空间去广告
+Description: 设置入口
 Name: QQ彩虹糖
 Author: Hao
 
@@ -72,7 +72,7 @@ SHA1: 5684c31f0e0924fbc65c79fdbf57e3d0e3c6059b
 SHA256: 51b7b4d96be46b8a93ad720fa9b8456bb20fddf0ea5f35d5d853fce2c6f13fb2
 SHA512: a03d219c60569a20f4d7280fee31ed9acd63fd1101eb1babe84510be8d2fd87579a40d12e3f856163249f8378462805db78a136fb11b9e7ef6d79e2b9ee8fff7
 Section: 备份
-Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Description: 设置入口
 Name: QQ彩虹糖
 Author: Hao
 
@@ -87,7 +87,7 @@ SHA1: dba9df2182ee2a4b93a953c24e807cb4c9da8205
 SHA256: d4e4a5c353cb866f8e30f03b6e884545250e57a80b73b13a0ed6522985e35a05
 SHA512: 501b6a5d894e5086269afbfabf200e23ed55e92f2aeca4425425c2f476a070125adc7585e18f7f2dadd7fdc1d64e11d90d2e4e95d3974c5799d6122271600608
 Section: 备份
-Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Description: 设置入口
 Name: QQ彩虹糖
 Author: Hao
 
@@ -102,7 +102,7 @@ SHA1: 41777c4004dd94798b130058153eff4e17fddcb7
 SHA256: deef162057ac15ff5be382fc64b822e33d8192aab7b323d1a4a0b59754f8f629
 SHA512: 6e7103428f1799bb5d9a3133e5b99ec39ea9023dd51882b6e37601cfe46ad1d943ef8d28c2724dedb4b771c61df359cf46e7d9bd09f81af65fdde17f2c8aa612
 Section: 备份
-Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Description: 设置入口
 Name: QQ彩虹糖
 Author: Hao
 
@@ -117,7 +117,7 @@ SHA1: f6ddc4da7e8e597ce640fd0ddf841ebd26ea13fb
 SHA256: e67b39be71a196e4dec90813c3216a0819f76fd585b0b6aaa74a44fee8217189
 SHA512: 9fd9dc29b1ff5cf157a81454beffde4056e8d4a3462979cf3f92c270896ecb5ff1132672ed44331fbc4156f4e88f753428365168b015254f5562c55c6d2dd81c
 Section: 备份
-Description: 增强插件：截图套壳、图文同发、防撤回、头像框美化（分左右）、界面净化等
+Description: 设置入口
 Name: QQ彩虹糖
 Author: Hao
 
@@ -261,6 +261,21 @@ Section: 备份
 Description: 埋堆堆5.2.41去开屏广告
 Name: 埋堆堆 去开屏
 Author: 余忆
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm
+Version: 9.3.75-2.3.147
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.75-2.3.147_iphoneos-arm.deb
+Size: 664336
+MD5sum: 7c96d040e91a187520ba4214467f8e35
+SHA1: 81093df43d0123a50ac526d56928a1ae819c3688
+SHA256: e386bc878014384ded3c944b375549cc93c5fd1bc97a5ef7ff89278e6dd14038
+SHA512: a899d00dafca0e0f119bd94ac006bd8edf39a229b2896e4f86a330f162e71fb1cb324860cd84e4ce7d5c5d49585aafa13a9fa8439faa177b92cf6e2144906897
+Section: 备份
+Description: 设置入口
+Name: QQ彩虹糖
+Author: Hao
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
