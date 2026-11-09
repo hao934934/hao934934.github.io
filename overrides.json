@@ -21,7 +21,7 @@
   },
   "pkg:local.qqallinone.control": {
     "name": "",
-    "desc": "设置入口",
+    "desc": "语音可复读",
     "keyType": "package"
   }
 }
