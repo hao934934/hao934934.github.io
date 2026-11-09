@@ -18,5 +18,10 @@
   "QQRainbowCandy_9.3.75-2.3.145_iphoneos-arm64.deb": {
     "name": "",
     "desc": "设置入口"
+  },
+  "pkg:local.qqallinone.control": {
+    "name": "",
+    "desc": "设置入口",
+    "keyType": "package"
   }
 }
