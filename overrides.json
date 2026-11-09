@@ -21,7 +21,7 @@
   },
   "pkg:local.qqallinone.control": {
     "name": "",
-    "desc": "语音可复读",
+    "desc": "语音包重构",
     "keyType": "package"
   }
 }
