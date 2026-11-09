@@ -63,6 +63,21 @@ Author: Hao
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
+Version: 9.3.75-2.3.145
+Maintainer: Hao
+Filename: debs/QQRainbowCandy_9.3.75-2.3.145_iphoneos-arm64.deb
+Size: 593826
+MD5sum: 32fbe2c33bcc606d1a7b12b01ce4d6bd
+SHA1: 51befa02c34d42270164ec47b9a569b2500bc4a6
+SHA256: 59f16a1721dd07fc858207ac8db119802f44474ec1179467974bba98a3f32dc5
+SHA512: df8a65ef4894edabc814671629f0bd298aa840f8ea6cd70f5c312f5235889ac8558b9a988a18adf374b66653ec8993ad90eab2b10c0a7aa575d5169f047b9919
+Section: 备份
+Description: 设置入口
+Name: QQ彩虹糖
+Author: Hao
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
 Version: 9.3.75-2.3.80
 Maintainer: Hao
 Filename: debs/QQRainbowCandy_9.3.75-2.3.80_iphoneos-arm64.deb
