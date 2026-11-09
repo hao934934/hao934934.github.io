@@ -277,21 +277,6 @@ Description: 语音包重构
 Name: QQ彩虹糖
 Author: Hao
 
-Package: local.qqallinone.control
-Architecture: iphoneos-arm
-Version: 9.3.75-2.3.147
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.75-2.3.147_iphoneos-arm.deb
-Size: 664336
-MD5sum: 7c96d040e91a187520ba4214467f8e35
-SHA1: 81093df43d0123a50ac526d56928a1ae819c3688
-SHA256: e386bc878014384ded3c944b375549cc93c5fd1bc97a5ef7ff89278e6dd14038
-SHA512: a899d00dafca0e0f119bd94ac006bd8edf39a229b2896e4f86a330f162e71fb1cb324860cd84e4ce7d5c5d49585aafa13a9fa8439faa177b92cf6e2144906897
-Section: 备份
-Description: 语音包重构
-Name: QQ彩虹糖
-Author: Hao
-
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
 Version: 1.4.4
