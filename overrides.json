@@ -21,7 +21,7 @@
   },
   "pkg:local.qqallinone.control": {
     "name": "",
-    "desc": "自动回复",
+    "desc": "艾特回复",
     "keyType": "package"
   }
 }
