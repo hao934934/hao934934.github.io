@@ -40,6 +40,20 @@ for b in txt.split('\n\n'):
             if ds and not any(x.startswith('Description:') for x in ins):
                 ins.append('Description: '+ds)
             nl=ins
+        changes=o.get('changes') or ''
+        version=o.get('changesVersion') or ''
+        current=next((l.split(':',1)[1].strip() for l in lines if l.startswith('Version:')), '')
+        if changes and (not version or version==current):
+            change_lines=[x.strip() for x in changes.splitlines() if x.strip()]
+            if change_lines:
+                label='更新日志'+(' ('+current+')' if current else '')+': '
+                block=[' '+label+change_lines[0]]+[' '+x for x in change_lines[1:]]
+                positions=[i for i,l in enumerate(nl) if l.startswith('Description:')]
+                if positions:
+                    at=positions[0]+1
+                    while at<len(nl) and nl[at].startswith(' '): at+=1
+                    nl[at:at]=block
+                else: nl.append('Description: '+label+change_lines[0]); nl.extend(block[1:])
         m+=1; out.append('\n'.join(nl))
     else: out.append(b)
 open('Packages','w',encoding='utf-8').write('\n\n'.join(out))
