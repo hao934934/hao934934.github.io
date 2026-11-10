@@ -1,0 +1,13 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{400, 255}",
+  "itemCornerRadius": 12,
+  "banners": [
+    {
+      "url": "https://raw.githubusercontent.com/hao934934/hao934934.github.io/main/banner-1794332707422-37dllt.jpg",
+      "title": "",
+      "hideShadow": true,
+      "displayText": false
+    }
+  ]
+}
