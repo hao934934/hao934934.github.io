@@ -23,7 +23,7 @@
     "name": "",
     "desc": "艾特回复",
     "keyType": "package",
-    "changes": "新增版本号信息",
-    "changesVersion": "9.3.75-2.3.188"
+    "changes": "修复已知问题…",
+    "changesVersion": "9.3.75-2.3.189"
   }
 }
