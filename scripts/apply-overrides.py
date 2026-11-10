@@ -1,4 +1,4 @@
-import sys,json
+import sys,json,os
 txt=open('Packages',encoding='utf-8').read(); out=[]
 try: ov=json.load(open('overrides.json',encoding='utf-8'))
 except: ov={}
@@ -43,17 +43,23 @@ for b in txt.split('\n\n'):
         changes=o.get('changes') or ''
         version=o.get('changesVersion') or ''
         current=next((l.split(':',1)[1].strip() for l in lines if l.startswith('Version:')), '')
-        if changes and (not version or version==current):
-            change_lines=[x.strip() for x in changes.splitlines() if x.strip()]
-            if change_lines:
-                label='更新日志'+(' ('+current+')' if current else '')+': '
-                block=[' '+label+change_lines[0]]+[' '+x for x in change_lines[1:]]
-                positions=[i for i,l in enumerate(nl) if l.startswith('Description:')]
-                if positions:
-                    at=positions[0]+1
-                    while at<len(nl) and nl[at].startswith(' '): at+=1
-                    nl[at:at]=block
-                else: nl.append('Description: '+label+change_lines[0]); nl.extend(block[1:])
+        if changes and (not version or version==current) and pk:
+            raw_desc=next((l.split(':',1)[1].strip() for l in nl if l.startswith('Description:')), '')
+            detail=ds.replace('\n ', '\n') if ds else raw_desc
+            safe=''.join(c if c.isascii() and (c.isalnum() or c in '._-') else '_' for c in pk)
+            safe_ver=''.join(c if c.isascii() and (c.isalnum() or c in '._-') else '_' for c in current)
+            dest='depictions/'+safe+'_'+safe_ver+'.json'
+            depiction={'class':'DepictionTabView','tabs':[
+                {'tabname':'详情','class':'DepictionStackView','views':[
+                    {'class':'DepictionMarkdownView','markdown':detail or '暂无详情','useSpacing':True}]},
+                {'tabname':'更新日志','class':'DepictionStackView','views':[
+                    {'class':'DepictionMarkdownView','markdown':changes,'useSpacing':True}]}]}
+            os.makedirs('depictions',exist_ok=True)
+            with open(dest,'w',encoding='utf-8') as f: json.dump(depiction,f,ensure_ascii=False)
+            base=os.environ.get('REPO_URL','').rstrip('/')
+            if base:
+                nl=[l for l in nl if not l.startswith('SileoDepiction:')]
+                nl.append('SileoDepiction: '+base+'/'+dest)
         m+=1; out.append('\n'.join(nl))
     else: out.append(b)
 open('Packages','w',encoding='utf-8').write('\n\n'.join(out))
