@@ -22,6 +22,8 @@
   "pkg:local.qqallinone.control": {
     "name": "",
     "desc": "艾特回复",
-    "keyType": "package"
+    "keyType": "package",
+    "changes": "新增版本号信息",
+    "changesVersion": "9.3.75-2.3.188"
   }
 }
