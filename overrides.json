@@ -21,7 +21,7 @@
   },
   "pkg:local.qqallinone.control": {
     "name": "",
-    "desc": "重构语音包",
+    "desc": "新增mp3发送",
     "keyType": "package"
   }
 }
