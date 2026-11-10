@@ -1,0 +1,1 @@
+{"class": "DepictionTabView", "tabs": [{"tabname": "详情", "class": "DepictionStackView", "views": [{"class": "DepictionMarkdownView", "markdown": "艾特回复", "useSpacing": true}]}, {"tabname": "更新日志", "class": "DepictionStackView", "views": [{"class": "DepictionMarkdownView", "markdown": "修复已知问题…", "useSpacing": true}]}]}
