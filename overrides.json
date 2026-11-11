@@ -23,7 +23,7 @@
     "name": "",
     "desc": "艾特回复",
     "keyType": "package",
-    "changes": "修复已知问题…",
-    "changesVersion": "9.3.75-2.3.189"
+    "changes": "自动回复保留一条未读",
+    "changesVersion": "9.3.75-2.3.218"
   }
 }
