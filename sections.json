@@ -8,7 +8,9 @@
     {
       "name": "自用",
       "orig": "自制",
-      "pkgs": []
+      "pkgs": [
+        "local.qqallinone.control"
+      ]
     }
   ],
   "other": "其它"
