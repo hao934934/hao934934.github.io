@@ -625,3 +625,22 @@ Description: Repo Manager 软件介绍
  应用支持 Fine-grained Token，并建议只授予目标仓库所需的最小权限。
 Name: Repo Manager (RootHide)
 Author: Ty
+
+Package: com.minis.yiweiyuan
+Architecture: iphoneos-arm64
+Version: 3.00-4
+Priority: optional
+Maintainer: Local Backup
+Installed-Size: 561
+Depends: firmware (>= 14.0)
+Filename: debs/com.minis.yiweiyuan_3.00-4_iphoneos-arm64.deb
+Size: 263616
+MD5sum: af0e2143c3f52e53eda00422e7eb4e82
+SHA1: c5353d3fb7467c100b857c946bc8ec07ac2a6d4e
+SHA256: de4be4de8e70ba6c5ac2cacebc78bd11e04f290fb53b9a13b73a821f93523565
+SHA512: 6c1e77258c475ccc82bf4964b14da4a716bc254f8395db6123e7ffd328b30937b8f8212fe8bf0e22d2f6627ca3c1806f020271b9616c27e4d1995ac649936eaf
+Section: 其它
+Description: 一键建源 3.00 横幅修复备份版
+ 包含版本折叠、更新日志、上传选择分类和横幅上传修复。
+ 安装路径：/var/jb/Applications/一键建源.app
+Name: 一键建源
