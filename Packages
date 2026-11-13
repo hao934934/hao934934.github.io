@@ -187,6 +187,21 @@ Description: 艾特回复
 Name: QQ彩虹糖
 Author: Hao
 
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-1.24
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.75-1.24_iphoneos-arm64.deb
+Size: 827666
+MD5sum: 46cea3c5440884577fe23c2835c7b91f
+SHA1: 68c6e9b46f5c09addadd4a6e679ee20ebd2cb3c1
+SHA256: 20aa591b0a719d4536cce7d385e789ea330a03dd668991c64f6dff4dc342f6c8
+SHA512: ee92baa58a10dee4182ee4b29125a323c987ad5126f5a396606078528f3609f829b0200bc7a76e83981c3e9c91968822926fb4fb3089e329832d1e2a0392ee17
+Section: 备份
+Description: 艾特回复
+Name: QQ彩虹糖
+Author: Hao
+
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
 Version: 1.4.4
