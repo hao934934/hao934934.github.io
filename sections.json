@@ -3,14 +3,14 @@
     {
       "name": "备份",
       "orig": "Tweaks",
-      "pkgs": []
+      "pkgs": [
+        "local.qqallinone.control"
+      ]
     },
     {
       "name": "自用",
       "orig": "自制",
-      "pkgs": [
-        "local.qqallinone.control"
-      ]
+      "pkgs": []
     }
   ],
   "other": "其它"
