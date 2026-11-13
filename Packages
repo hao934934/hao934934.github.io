@@ -172,66 +172,6 @@ Description: 艾特回复
 Name: QQ彩虹糖
 Author: Hao
 
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.136
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.75-2.3.136_iphoneos-arm64.deb
-Size: 721152
-MD5sum: ee7c4025ad221840bb08c18bd3e2cad6
-SHA1: bd51d8cff26bf6ea6a549e3e5f5949d4086a00cb
-SHA256: 6649a2a22aaaa16f07adaff2aab5a176c3605a5c283ff93225fe2b73d010c4d6
-SHA512: dfca6d12b1a0bedfffb1199f661b11b8c15defeebd2fd17b21f51aac3eedb734595b0568f3f1196f6b413a7e977395fe1f5eec68b2fd38f8f9d24cbc605aee92
-Section: 备份
-Description: 艾特回复
-Name: QQ彩虹糖
-Author: Hao
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.138
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.75-2.3.138_iphoneos-arm64.deb
-Size: 722986
-MD5sum: a60a42563578148ea16abfde44b7a7a3
-SHA1: 0cc22f77fb300c93a86483d2baa47b482e090e84
-SHA256: aa08a573d63f0ac000ecd5dcac6a4beaac00d135f56065a56bf4824b4acd6296
-SHA512: d9683b01540ab2ff10da40c2b0ac2ee6d2cd1d4bc1bd27543ace1d2d8d0ed7c030c0468810d5f20859052ea63830abcb0f1088a63a8af16f53f2f5fc953ee400
-Section: 备份
-Description: 艾特回复
-Name: QQ彩虹糖
-Author: Hao
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.139
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.75-2.3.139_iphoneos-arm64.deb
-Size: 726294
-MD5sum: 099a8d51ed6a0ab591f34ad1cbe51858
-SHA1: 97ec1b021702b8d04adef2ae47343663d592ab11
-SHA256: faf94d0c6897aeee35f8a5e56bddbbde0779564e88ab2fba0fc0d31566ffa55b
-SHA512: cbfdc35052780f66bc321577bcf43a66451fbe963c7ec86c6d3e552df243f7118e5e6b60d4d48594c014b4eff919267dfef131754e5c6f6ecdf04e0205feefcb
-Section: 备份
-Description: 艾特回复
-Name: QQ彩虹糖
-Author: Hao
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm
-Version: 9.3.75-2.3.168
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.75-2.3.168_iphoneos-arm.deb
-Size: 776166
-MD5sum: a5fde220ab8d8ebc05892ecc1f537f82
-SHA1: 94a8b5a89da1525d969b89956715f42746c3ffef
-SHA256: 4906409829403a3ac0924865a887216f6bb7168c3f22fb531a5c4efc1405eb52
-SHA512: 59d6b06dabc7bbc9807af13b9af61859a923d34d0f684bfc6efcf0c79a6e7243701da97ce7f29991478a1a0609dedddc502cd33ded857faad9a42589102fe810
-Section: 备份
-Description: 艾特回复
-Name: QQ彩虹糖
-Author: Hao
-
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
 Version: 1.4.4
