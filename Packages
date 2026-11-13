@@ -159,6 +159,21 @@ Author: 余忆
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
+Version: 9.3.75-1.21.2
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.75-1.21.2_iphoneos-arm64.deb
+Size: 824552
+MD5sum: 0fc034a9f92127f62ce08a2610bedbfb
+SHA1: 80d3e15c9ea421b9c311cf7064a81fa0804366c7
+SHA256: 827c5cc8286f19a9322e20f95bb061411dffe221434e96d41d7dc3ed260f74d9
+SHA512: 5fc990d09e588b8724271739e413b328fb9d6c5a0a7e1dc2cdb5c09ff4b13cd7de486cd09170d84fcd6924cd36e4f2d1aad39661f79b9523811d616612b0a3f6
+Section: 备份
+Description: 艾特回复
+Name: QQ彩虹糖
+Author: Hao
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
 Version: 9.3.75-1.21
 Maintainer: Hao
 Filename: debs/local.qqallinone.control_9.3.75-1.21_iphoneos-arm64.deb
