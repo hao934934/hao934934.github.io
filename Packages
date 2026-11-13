@@ -16,21 +16,6 @@ Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
 Author: Local Workspace
 Name: 支付宝身份验证兼容
 
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.97
-Maintainer: Hao
-Filename: debs/QQRainbowCandy_9.3.75-2.3.97_iphoneos-arm64.deb
-Size: 493748
-MD5sum: f7c5d150848d965558a50c7a8511246f
-SHA1: dba9df2182ee2a4b93a953c24e807cb4c9da8205
-SHA256: d4e4a5c353cb866f8e30f03b6e884545250e57a80b73b13a0ed6522985e35a05
-SHA512: 501b6a5d894e5086269afbfabf200e23ed55e92f2aeca4425425c2f476a070125adc7585e18f7f2dadd7fdc1d64e11d90d2e4e95d3974c5799d6122271600608
-Section: 备份
-Description: 艾特回复
-Name: QQ彩虹糖
-Author: Hao
-
 Package: com.hao.qqipadmoodlogin
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -276,22 +261,6 @@ Section: 备份
 Description: 艾特回复
 Name: QQ彩虹糖
 Author: Hao
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.218
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.75-2.3.218_iphoneos-arm64.deb
-Size: 827178
-MD5sum: 6651cb4a6e773cdc70fa09df4fdf3c82
-SHA1: 0f4e28375bd2d926ffb0d2f3e2af74bbc1e1b09c
-SHA256: 0c6ec24e09865d9a81dfde473d1e47c0e2bba5ebee110a61a3179c214de02cf6
-SHA512: 05c48bf2a56e6803a22eefe5c1bc05ebb46a50f70c47347fc7b4e0a9f8eaf38427de6f9b5fbf792cc1d4d55d128dade41a34563839d0499bf3150fd6543e1613
-Section: 备份
-Description: 艾特回复
-Name: QQ彩虹糖
-Author: Hao
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.75-2.3.218.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
