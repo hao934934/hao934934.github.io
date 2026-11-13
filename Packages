@@ -18,21 +18,6 @@ Name: 支付宝身份验证兼容
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.75-2.3.127
-Maintainer: Hao
-Filename: debs/QQRainbowCandy_9.3.75-2.3.127_iphoneos-arm64.deb
-Size: 522524
-MD5sum: 7fae3833c90372887b1b5e8de1adbe6b
-SHA1: 0f55692845f25726147f92a94eabd9efffa12143
-SHA256: 65aa541c200ff1db8f7aadee909e364ea5e6330f3f7a83781d1f29dd7f01852c
-SHA512: df8f733ff636a023a9be5dceb8407f5c4966bb97b3b1c9555566aaae818bbfa95767da51b3d66818dbe35083d67b57d2faed89c2df68034e34007c3da6ce9d4e
-Section: 备份
-Description: 艾特回复
-Name: QQ彩虹糖
-Author: Hao
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
 Version: 9.3.75-2.3.80
 Maintainer: Hao
 Filename: debs/QQRainbowCandy_9.3.75-2.3.80_iphoneos-arm64.deb
