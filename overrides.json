@@ -1,1 +1,9 @@
-{}
+{
+  "pkg:local.qqallinone.control": {
+    "name": "",
+    "desc": "",
+    "keyType": "package",
+    "changes": "新增文字转语音",
+    "changesVersion": "9.3.75-1.28-tts-command"
+  }
+}
