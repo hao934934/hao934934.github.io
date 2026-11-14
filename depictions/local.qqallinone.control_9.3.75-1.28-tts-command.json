@@ -1,0 +1,1 @@
+{"class": "DepictionTabView", "tabs": [{"tabname": "详情", "class": "DepictionStackView", "views": [{"class": "DepictionMarkdownView", "markdown": "QQ RainbowCandy 1.28 with text-to-speech commands", "useSpacing": true}]}, {"tabname": "更新日志", "class": "DepictionStackView", "views": [{"class": "DepictionMarkdownView", "markdown": "新增文字转语音", "useSpacing": true}]}]}

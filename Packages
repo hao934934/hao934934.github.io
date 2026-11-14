@@ -229,6 +229,24 @@ Description: QQ 彩虹糖 · QQ 增强插件
 Name: QQ彩虹糖
 Author: Hao
 
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-1.28-tts-command
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.75-1.28-tts-command_iphoneos-arm64.deb
+Size: 925200
+MD5sum: f9432e61d4aa927cb9c8eb961beb1b7d
+SHA1: c554b5b887bde87da58ef588766d015359fb1c51
+SHA256: bb59b46b10b33e3454c937f33d979e9e9fa373efbc650c099e810348da17ac59
+SHA512: 37d92f147bfc00e82b8679c62b21552dbe58ad97e7eeebee14fc41df37c2716c80669d2c7dad389d0446eddfae2addccddce3bbe5704e133bb159ec251a176db
+Section: 备份
+Description: QQ RainbowCandy 1.28 with text-to-speech commands
+ QQ 9.3.75; Fish/Fine/KK TTS, configurable cc commands, voice packs.
+ No automatic TTS cache reuse or proxy settings.
+Name: QQ彩虹糖
+Author: Hao
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.75-1.28-tts-command.json
+
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
 Version: 1.4.4
