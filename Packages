@@ -168,7 +168,10 @@ SHA1: 80d3e15c9ea421b9c311cf7064a81fa0804366c7
 SHA256: 827c5cc8286f19a9322e20f95bb061411dffe221434e96d41d7dc3ed260f74d9
 SHA512: 5fc990d09e588b8724271739e413b328fb9d6c5a0a7e1dc2cdb5c09ff4b13cd7de486cd09170d84fcd6924cd36e4f2d1aad39661f79b9523811d616612b0a3f6
 Section: 备份
-Description: 艾特回复
+Description: QQ 彩虹糖 · QQ 增强插件
+ 消息复读、自动红包、防撤回、闪照捕获、语音包（分类/搜索/导入/转码）、图文同发、
+ 表情包外显、自动回复（关键词 + @ 语音 + 逐群四档 + 独立语音目录）、多群打卡、
+ 语音复读、消息时间与余额等级显示、头像框美化、界面净化、截图套壳、后台衔接与 URL 放行。
 Name: QQ彩虹糖
 Author: Hao
 
@@ -183,7 +186,10 @@ SHA1: b473f284b8f53263df063167338e7e23c215f958
 SHA256: 7a093265f4f173cb157aeb683ac9f05fafa93a24563f0485d2dda038889d2f62
 SHA512: 49ee9855e41acdbe5ac938a51806402d974070df8dfce4de8be7f546f31331b832bf9779ad09f945aec3639ee278978c372a27d2c95f9760caa1fc606b1374d7
 Section: 备份
-Description: 艾特回复
+Description: QQ 彩虹糖 · QQ 增强插件
+ 消息复读、自动红包、防撤回、闪照捕获、语音包（分类/搜索/导入/转码）、图文同发、
+ 表情包外显、自动回复（关键词 + @ 语音 + 逐群四档 + 独立语音目录）、多群打卡、
+ 语音复读、消息时间与余额等级显示、头像框美化、界面净化、截图套壳、后台衔接与 URL 放行。
 Name: QQ彩虹糖
 Author: Hao
 
@@ -198,7 +204,10 @@ SHA1: 68c6e9b46f5c09addadd4a6e679ee20ebd2cb3c1
 SHA256: 20aa591b0a719d4536cce7d385e789ea330a03dd668991c64f6dff4dc342f6c8
 SHA512: ee92baa58a10dee4182ee4b29125a323c987ad5126f5a396606078528f3609f829b0200bc7a76e83981c3e9c91968822926fb4fb3089e329832d1e2a0392ee17
 Section: 备份
-Description: 艾特回复
+Description: QQ 彩虹糖 · QQ 增强插件
+ 消息复读、自动红包、防撤回、闪照捕获、语音包（分类/搜索/导入/转码）、图文同发、
+ 表情包外显、自动回复（关键词 + @ 语音 + 逐群四档 + 独立语音目录）、多群打卡、
+ 语音复读、消息时间与余额等级显示、头像框美化、界面净化、截图套壳、后台衔接与 URL 放行。
 Name: QQ彩虹糖
 Author: Hao
 
@@ -213,10 +222,12 @@ SHA1: 72b1dd96b4e7b7a013f9be89f43d547e4ced55b2
 SHA256: 434565923cf96a3d399ebd08e5207babbbf602a4e4e7e831448f8496eb2b12fc
 SHA512: 5d1eda6012b8624016be1d11aa909351675947512d804034d11258e10e4e8b2dc8ea35a1080ce01d52492fcb570c4665b4f614c33dcc20549d0267ba0400ebcd
 Section: 备份
-Description: 艾特回复
+Description: QQ 彩虹糖 · QQ 增强插件
+ 消息复读、自动红包、防撤回、闪照捕获、语音包（分类/搜索/导入/转码）、图文同发、
+ 表情包外显、自动回复（关键词 + @ 语音 + 逐群四档 + 独立语音目录）、多群打卡、
+ 语音复读、消息时间与余额等级显示、头像框美化、界面净化、截图套壳、后台衔接与 URL 放行。
 Name: QQ彩虹糖
 Author: Hao
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.75-1.25.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
