@@ -245,7 +245,22 @@ Description: QQ RainbowCandy 1.28 with text-to-speech commands
  No automatic TTS cache reuse or proxy settings.
 Name: QQ彩虹糖
 Author: Hao
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.75-1.28-tts-command.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.75-1.28
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.75-1.28_iphoneos-arm64.deb
+Size: 1045788
+MD5sum: 1bff043012eff48d8418c97ac6aeea3e
+SHA1: 9a65dec34e86af6e50dd4d5b0d3307f57ba72cfd
+SHA256: 6606a223206d78fef5738d72603a0c579fa396bc139486034c4c3b333531867c
+SHA512: 5a0730624ebff5c786ac3a5a509359c41e511fbc9ab6bf0867496e33e99c9284a17f41cc1ff983be5894956f7d5c1822dd37b07ae4d09efda76ffc7fc0c56907
+Section: 备份
+Description: QQ RainbowCandy 1.28 with card-style speech UI
+ Fish/FV/KK, scoped FV certificate-chain repair, card UI, voice favorites and M4A.
+Name: QQ彩虹糖
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.75-1.28.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
