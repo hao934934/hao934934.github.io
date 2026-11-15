@@ -3,7 +3,7 @@
     "name": "",
     "desc": "",
     "keyType": "package",
-    "changes": "新增文字转语音",
-    "changesVersion": "9.3.75-1.28-tts-command"
+    "changes": "文字转语音页面升级为卡片布局，音色、文字输入、生成结果分区展示，适配浅色与深色模式",
+    "changesVersion": "9.3.75-1.28"
   }
 }
