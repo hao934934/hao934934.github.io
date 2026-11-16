@@ -258,7 +258,23 @@ Section: 备份
 Description: QQ RainbowCandy 1.29 with per-provider TTS voice memory
  Dice customization removed; Fish/FV/KK voice choices remembered separately.
 Name: QQ彩虹糖
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.75-1.29.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.30
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.30_iphoneos-arm64.deb
+Size: 1044972
+MD5sum: 1264f7e8d2f154c8be2fdd07723fd3c1
+SHA1: d3147d407d7561805751a37a667fa5c3240166e6
+SHA256: b36f9fe4f89e93181bd2d73ce91a953687f8dfbd59f0db860815d721a68f58c2
+SHA512: 5181e7b1c50320d268725a7723bafb208deae195ef1f2e46c9fe68e844daaaa17b22f0a7cd65f4b4c5c013cc3e80500c38c1ff4b45b183ec83f9c20918960631
+Section: 备份
+Description: QQ 彩虹糖 1.30 系统分享版
+ 网易云点歌、无空格指令和iOS系统分享；保留文字转语音、音色记忆、情绪倍速和主题，移除实验性原生音乐直发。
+Name: QQ彩虹糖
+Author: Hao
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.30.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
