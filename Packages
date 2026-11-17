@@ -274,7 +274,6 @@ Description: QQ RainbowCandy 1.30网易云QQ原生选人分享测试版
  AppID仍为0；点分享可能返回900101。不是修复包。
  No-space song command; QQ native recipient picker; legacy direct Ark removed.
 Name: QQ彩虹糖
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.30_qqshare1.json
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -291,6 +290,25 @@ Description: QQ 彩虹糖 1.30 系统分享版
  网易云点歌、无空格指令和iOS系统分享；保留文字转语音、音色记忆、情绪倍速和主题，移除实验性原生音乐直发。
 Name: QQ彩虹糖
 Author: Hao
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.31
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.31_iphoneos-arm64.deb
+Size: 1192666
+MD5sum: 81b1db1e7c0fc41d1a487ea11435fe6e
+SHA1: 9f1d73c2c220575efccd112ad81df49cf2839908
+SHA256: 04bd83acddaec73adeba8ca09e28579eacb293bed9413b34c4e0e842eaa64689
+SHA512: fa844f76899bd428776e2c3ebb8496ac5bd13221ca0671a05dcc439684a32a25c826ea42f43c25efbd27d272873ffe3e50ca9b34be23f43200434dd8392c86df
+Section: 备份
+Description: QQ彩虹糖 1.31 · 表情保存相册
+ 长按图片或表情保存到相册，QQ原图缓存查询，GIF保留动图；保留qqshare1点歌及既有语音功能。
+ 原qqshare1点歌AppID=0/900101限制未修复，1.31仅新增保存表情。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.31.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
