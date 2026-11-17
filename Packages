@@ -311,6 +311,24 @@ Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
+Version: 9.3.78-1.32+voices1
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.32+voices1_iphoneos-arm64.deb
+Size: 1331856
+MD5sum: b2d0ee006389e589b4acb49b5a165580
+SHA1: 9fb3733cad22792a2aa61b8a28389254fda7cb52
+SHA256: 46486d0d0f3fa68b28078455d32ecb32b0cbc9167a0895881e0f8a56cad282ef
+SHA512: 71adb72d73ff945364f8bab4a1ecea6ca1df122d987a67636620400eb43bba2b91dba7152140d7be2709b17dc7b9a9036b111242c92f874fda554046ff197da5
+Section: 备份
+Description: QQ彩虹糖 1.32 · 语音包新增音源
+ 语音包新增音源；以用户提供的1.35.5源码为基线，其他功能沿用原源码。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.32_voices1.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
 Version: 9.3.78-1.32
 Maintainer: Hao
 Filename: debs/local.qqallinone.control_9.3.78-1.32_iphoneos-arm64.deb
@@ -325,7 +343,6 @@ Description: QQ彩虹糖 1.32 · 自动抢口令红包
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.32.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
