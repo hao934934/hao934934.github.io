@@ -308,7 +308,24 @@ Description: QQ彩虹糖 1.31 · 表情保存相册
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.31.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.32
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.32_iphoneos-arm64.deb
+Size: 1215428
+MD5sum: 5b45b0ead55b91aab147e013a963e2bf
+SHA1: 0ecf6aff14bc7262d8668428227157b86dc8e3f6
+SHA256: e851f785edbf42a27078dca2ab7ac31941eb99647c4fbd7483c1259d07eca6df
+SHA512: f037ee8c3d6349bba7339cae727f9779cd5fe2d58563f77b7dafb7f7c49ed910e7e3fc156ff47eb97183fdc4b672fac0ced0a42fb4775de7c2d9e54366e82ba9
+Section: 备份
+Description: QQ彩虹糖 1.32 · 自动抢口令红包
+ 新增自动抢口令红包（语音不抢）；保留表情保存相册、点歌及既有语音功能。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.32.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
