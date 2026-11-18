@@ -16,6 +16,11 @@ for b in txt.split('\n\n'):
     if not o: o=norm.get(key)
     if o:
         nm=o.get('name') or ''; ds=o.get('desc') or o.get('description') or ''
+        icon=o.get('icon') or ''
+        # descVersion 存在时，描述只覆盖这一版；否则旧版本条目会被改成新版的说明
+        cur_ver=next((l.split(':',1)[1].strip() for l in lines if l.startswith('Version:')), '')
+        dv=o.get('descVersion') or ''
+        if dv and dv!=cur_ver: ds=''
         # deb 的 Description 是带续行的多行字段，写回去时后续行要缩进一个空格
         ds = '\n '.join([x.strip() for x in ds.splitlines() if x.strip()])
         nl=[]; replaced=False
@@ -60,6 +65,12 @@ for b in txt.split('\n\n'):
             if base:
                 nl=[l for l in nl if not l.startswith('SileoDepiction:')]
                 nl.append('SileoDepiction: '+base+'/'+dest)
+        # deb 自带的 Icon 多是 file:///var/jb/... 的本地路径，Sileo/Zebra 拿不到，
+        # 在 overrides 里给个 https 地址直接换掉
+        if icon:
+            nl=['Icon: '+icon if l.startswith('Icon:') else l for l in nl]
+            if not any(l.startswith('Icon:') for l in nl):
+                nl.append('Icon: '+icon)
         m+=1; out.append('\n'.join(nl))
     else: out.append(b)
 open('Packages','w',encoding='utf-8').write('\n\n'.join(out))

@@ -174,6 +174,7 @@ Description: QQ 彩虹糖 · QQ 增强插件
  语音复读、消息时间与余额等级显示、头像框美化、界面净化、截图套壳、后台衔接与 URL 放行。
 Name: QQ彩虹糖
 Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -192,6 +193,7 @@ Description: QQ 彩虹糖 · QQ 增强插件
  语音复读、消息时间与余额等级显示、头像框美化、界面净化、截图套壳、后台衔接与 URL 放行。
 Name: QQ彩虹糖
 Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -210,6 +212,7 @@ Description: QQ 彩虹糖 · QQ 增强插件
  语音复读、消息时间与余额等级显示、头像框美化、界面净化、截图套壳、后台衔接与 URL 放行。
 Name: QQ彩虹糖
 Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -228,6 +231,7 @@ Description: QQ 彩虹糖 · QQ 增强插件
  语音复读、消息时间与余额等级显示、头像框美化、界面净化、截图套壳、后台衔接与 URL 放行。
 Name: QQ彩虹糖
 Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -243,6 +247,7 @@ Section: 备份
 Description: QQ RainbowCandy 1.28 with card-style speech UI
  Fish/FV/KK, scoped FV certificate-chain repair, card UI, voice favorites and M4A.
 Name: QQ彩虹糖
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -258,6 +263,7 @@ Section: 备份
 Description: QQ RainbowCandy 1.29 with per-provider TTS voice memory
  Dice customization removed; Fish/FV/KK voice choices remembered separately.
 Name: QQ彩虹糖
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -274,6 +280,7 @@ Description: QQ RainbowCandy 1.30网易云QQ原生选人分享测试版
  AppID仍为0；点分享可能返回900101。不是修复包。
  No-space song command; QQ native recipient picker; legacy direct Ark removed.
 Name: QQ彩虹糖
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -290,6 +297,7 @@ Description: QQ 彩虹糖 1.30 系统分享版
  网易云点歌、无空格指令和iOS系统分享；保留文字转语音、音色记忆、情绪倍速和主题，移除实验性原生音乐直发。
 Name: QQ彩虹糖
 Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -358,8 +366,43 @@ Description: QQ彩虹糖 1.33 · 语音包新增音源
  语音包新增音源；以用户提供的1.35.5源码为基线，其他功能沿用原源码。
 Name: QQ彩虹糖
 Author: Hao
-Icon: file:///var/jb/Library/Application%20Support/QQRainbowCandy/icon.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.33_voices2.json
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm
+Version: 9.3.78-1.34
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.34_iphoneos-arm.deb
+Size: 1354680
+MD5sum: 00bdd172ccf8261af257025da7d7d8eb
+SHA1: 265de0186aa80cc6b5839db1269d4995e57ea5ac
+SHA256: 51de153d631addc4d24ba43184509ad022c4edc74d5c58ad8dadc29a1366d5f7
+SHA512: 7c9c69a2334ddd04502fded00a3e8a45212c789336ed3f8285a202b74e85534f6226ef66236148ad94feb1e5a11f78ef4fd3798d038e4439a159202f3d47522b
+Section: 备份
+Description: QQ彩虹糖 1.34 · 表情保存相册
+ 长按图片或表情保存到相册，QQ 原图缓存查询，GIF 保留动图；点歌支持网易云 / 酷狗概念 / 汽水 / QQ 音乐 / 波点五路音源，可发送整首音频文件。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.34.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.34
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.34_iphoneos-arm64.deb
+Size: 1354736
+MD5sum: 03431c97742047dee8c311f34cd1102b
+SHA1: ead6f2deaa1b2175e25dde052757c70b8c488617
+SHA256: ef875af46b9c38e6edd937e15d5c3fbddbed9edb489a460d43e1e4fbc3835c2b
+SHA512: 429d11d1abc361ce04fec469f6dd7ead4b8703cfa21bba6a8379e630135be7ef68ff8bd3785198bb6cccd2b2e34f3b6f9da5bd5d1d5befb2c5048bb29c0b533e
+Section: 备份
+Description: QQ彩虹糖 1.34 · 表情保存相册
+ 长按图片或表情保存到相册，QQ 原图缓存查询，GIF 保留动图；点歌支持网易云 / 酷狗概念 / 汽水 / QQ 音乐 / 波点五路音源，可发送整首音频文件。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.34.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
