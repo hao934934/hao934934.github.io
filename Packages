@@ -406,14 +406,14 @@ Package: local.qqallinone.control
 Architecture: iphoneos-arm64
 Version: 9.3.78-1.36
 Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.78-1.36_iphoneos-arm64.deb
-Size: 1362810
-MD5sum: 651ad4b89424262dbe89c94a151b7884
-SHA1: 53f8dd57c9a9e5fb46791d00d41531dcd7c6ba72
-SHA256: f5d07c1c6bf5b54b6b8070d6adae4aa83a268c969922331e51295d7a68337552
-SHA512: 720f57d4f362eada5305de1f10f965654dee7dc8f3237be55826eb0ac978d061026c461ddac5162e6396e42fd0256857004e8c2060d2b62cc15343e2f66805ff
+Filename: debs/local.qqallinone.control_9.3.78-1.36+b2_iphoneos-arm64.deb
+Size: 1364484
+MD5sum: 9e2d8faaf0635d7713a387d908dae1f8
+SHA1: 6dc2bf072ae9cce61d6e44b18bd7daaa3f20101b
+SHA256: 1bcd8d36d63a3c4c935aff163abf9b7a3353ffe38452822913d58d21d995fa48
+SHA512: 1220c0ccd8dda32d2a834e8f9d6e2dc5a9a755211432d4df7e5d9dd5409a6edc68453094cb2e31d15c9f726d76ab4782bda177dcbd2751f152f273732ee01db3
 Section: 备份
-Description: QQ彩虹糖 1.36 · 表情保存相册
+Description: QQ彩虹糖 1.36 · 登录模式 + 语音保存 + 防撤回
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
