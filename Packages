@@ -369,24 +369,6 @@ Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
-Architecture: iphoneos-arm
-Version: 9.3.78-1.34
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.78-1.34_iphoneos-arm.deb
-Size: 1354680
-MD5sum: 00bdd172ccf8261af257025da7d7d8eb
-SHA1: 265de0186aa80cc6b5839db1269d4995e57ea5ac
-SHA256: 51de153d631addc4d24ba43184509ad022c4edc74d5c58ad8dadc29a1366d5f7
-SHA512: 7c9c69a2334ddd04502fded00a3e8a45212c789336ed3f8285a202b74e85534f6226ef66236148ad94feb1e5a11f78ef4fd3798d038e4439a159202f3d47522b
-Section: 备份
-Description: QQ彩虹糖 1.34 · 表情保存相册
- 长按图片或表情保存到相册，QQ 原图缓存查询，GIF 保留动图；点歌支持网易云 / 酷狗概念 / 汽水 / QQ 音乐 / 波点五路音源，可发送整首音频文件。
-Name: QQ彩虹糖
-Author: Hao
-Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.34.json
-
-Package: local.qqallinone.control
 Architecture: iphoneos-arm64
 Version: 9.3.78-1.34
 Maintainer: Hao
