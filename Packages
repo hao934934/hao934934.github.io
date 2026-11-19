@@ -455,34 +455,16 @@ Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.78-1.39.1
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.78-1.39.1_iphoneos-arm64.deb
-Size: 1367502
-MD5sum: 12f0c83c6b28c65986f3d22de0d55c5e
-SHA1: 20cb0ec603c26b8826361ff8ed4e7ba86c2c82d6
-SHA256: ddc12557d1e54576a0eac902520a0b6640520dcec4ce795172c2ba58ebfa702f
-SHA512: 7987021be21510c0d27cabff60e2a4930bea0a9cf945f45316d2a282aa7f8484c512194388237546379b223a192a22165ce870baa582b10f413fa24f90f47e02
-Section: 备份
-Description: QQ彩虹糖 1.39.1 · 补齐插件内更新说明
-Name: QQ彩虹糖
-Author: Hao
-Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.39.1.json
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
 Version: 9.3.78-1.39
 Maintainer: Hao
 Filename: debs/local.qqallinone.control_9.3.78-1.39_iphoneos-arm64.deb
-Size: 1367244
-MD5sum: af2d0d8b365c75167cede8607ae832b1
-SHA1: 55ecbc4ee355e59159035bed8238e176c8f1c0b7
-SHA256: c18cf9057e8d679a288f15c8613b61968c44dcd42b7844967c07111bafc97bb7
-SHA512: ff728095f00b6ba830f68b0f8656ce136bebf8eb247b6672d95d1fd641a4d5e54a05550170f93e023ba3cb15e24d60c65a4cd1f1483624b366e10ce7820ee16c
+Size: 1367344
+MD5sum: b2e640603ac5eb2c2e9eb0be51dddcb0
+SHA1: 15e7a235188ce8c9b0992de920a5b4359f2d8f5d
+SHA256: 5c0294cc9a215e64dc23181bfdd95e2f30b7cd413e687cbea5ea63c256e612b1
+SHA512: 20980e35ab8bc50229278e4111d1e8efeb2b8a4e944bc3bcbb138353eea02a812415f211c3ef0040a1e3923afd7715ae98251abed804d78b1c11d48d3dc78632
 Section: 备份
-Description: QQ彩虹糖 1.39 · QQ 增强
- 防撤回（含群主/管理员撤回别人的消息）、群聊语音保存、点歌、文字转语音（修复部分 KK 音色编码失败）、QQ 空间去广告、数据目录独立存放，QQ 升级不丢素材与语音包。
+Description: QQ彩虹糖 1.39 · 修复 +1 按钮压头像
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
