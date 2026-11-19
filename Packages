@@ -468,6 +468,7 @@ Description: QQ彩虹糖 1.39 · 修复 +1 按钮压头像
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.39.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
