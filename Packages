@@ -458,17 +458,16 @@ Architecture: iphoneos-arm64
 Version: 9.3.78-1.39
 Maintainer: Hao
 Filename: debs/local.qqallinone.control_9.3.78-1.39_iphoneos-arm64.deb
-Size: 1367344
-MD5sum: b2e640603ac5eb2c2e9eb0be51dddcb0
-SHA1: 15e7a235188ce8c9b0992de920a5b4359f2d8f5d
-SHA256: 5c0294cc9a215e64dc23181bfdd95e2f30b7cd413e687cbea5ea63c256e612b1
-SHA512: 20980e35ab8bc50229278e4111d1e8efeb2b8a4e944bc3bcbb138353eea02a812415f211c3ef0040a1e3923afd7715ae98251abed804d78b1c11d48d3dc78632
+Size: 1367788
+MD5sum: 44bc23bb6dcdc7d28a5122526be1152b
+SHA1: 1d978ea9c3123588cabcf6305f6141531cbcf4fb
+SHA256: 29d025d694f96c8da33e352d6d7edf90649991f0211d1e1ce4c18c19118993e8
+SHA512: 9eae836a831f21d95e690bf69d11cbd472d94c366e4fbf126b6a39f97288d30309213bff4461c951be88ffa1793d5b21ef7e3a8a1ed7d4bac7c066fd449c498f
 Section: 备份
 Description: QQ彩虹糖 1.39 · 修复 +1 按钮压头像
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.39.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
