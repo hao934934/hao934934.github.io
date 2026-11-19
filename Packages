@@ -413,11 +413,27 @@ SHA1: 6dc2bf072ae9cce61d6e44b18bd7daaa3f20101b
 SHA256: 1bcd8d36d63a3c4c935aff163abf9b7a3353ffe38452822913d58d21d995fa48
 SHA512: 1220c0ccd8dda32d2a834e8f9d6e2dc5a9a755211432d4df7e5d9dd5409a6edc68453094cb2e31d15c9f726d76ab4782bda177dcbd2751f152f273732ee01db3
 Section: 备份
-Description: QQ彩虹糖 1.36 · 登录模式 + 语音保存 + 防撤回
+Description: QQ彩虹糖 1.36 · 表情保存相册
+ 长按图片或表情保存到相册，QQ原图缓存查询，GIF保留动图；保留qqshare1点歌及既有语音功能。
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.36.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.37
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.37_iphoneos-arm64.deb
+Size: 1365506
+MD5sum: b22cca724a2c06bf3dda1ae9b1ae7a0c
+SHA1: 4934322aa3786727b8d571cfaa1daf98d51d1a7a
+SHA256: 6cb3d8b18be3308ab5984def9d77e07001cdd519f2780795ca920a6d123e6270
+SHA512: 6019748140590f7e704b34cc83aa244587f82f24cd19085bbe76100e473e0b71693a0b50a61ae86a87a1d8021e0c103b378384971ea3ce9a55174c57c30e620c
+Section: 备份
+Description: QQ彩虹糖 1.37 · 素材语音包不再丢
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
