@@ -1,10 +1,10 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{280, 178.5}",
-  "itemCornerRadius": 12,
+  "itemSize": "{358, 226}",
+  "itemCornerRadius": 14,
   "banners": [
     {
-      "url": "https://hao934934.github.io/hao-banner-portrait-v2.jpg",
+      "url": "https://hao934934.github.io/banner-1795154059-hao.jpg",
       "title": "豪啊豪",
       "hideShadow": true,
       "displayText": false
