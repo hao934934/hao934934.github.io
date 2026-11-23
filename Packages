@@ -16,6 +16,24 @@ Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
 Author: Local Workspace
 Name: 支付宝身份验证兼容
 
+Package: local.qqallinone.memes
+Architecture: iphoneos-arm64
+Version: 20261123-2
+Maintainer: Hao
+Depends: local.qqallinone.control
+Filename: debs/QQRC-Memes-20261123-2_iphoneos-arm64.deb
+Size: 793790
+MD5sum: ef5182600883ce4e84964ed73b2bf16c
+SHA1: 0f6301483421b79eb0494f872af9165da053a324
+SHA256: f226350de9c05caf8b01debfe1d610b23b5a092398a0930f5fdea487f264f717
+SHA512: 5fb4c4e5f203a86db7ff972c0b906dec68e76b85d1937950f40d71c83980f0aa8f0293ac55950fe2361fc57004e8046413472385a369be535ba82aaf1c447fa1
+Section: 备份
+Description: QQ彩虹糖 表情模板包（11 套）
+ 摸头 / 拍 / 锤 / 吃 / 踢球 / 啃 / 丢 / 捏脸 / 抱抱 / 亲亲 / 蹭蹭，共 11 套 87 帧。
+ 安装后素材落到 /var/mobile/Documents/QQRainbowCandy/memes_ext，QQ彩虹糖直接就能用。
+Name: QQ彩虹糖 表情模板包
+Author: Hao
+
 Package: com.hao.qqipadmoodlogin
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -520,7 +538,6 @@ Description: QQ彩虹糖 1.42 · QQ 增强
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.42.json
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64

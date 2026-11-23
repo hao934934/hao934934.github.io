@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>QQ彩虹糖 · 表情模板包</title>
+<style>
+  :root{
+    --bg:#f2f3f7; --card:#fff; --text:#111; --sub:#6b7280;
+    --accent:#ff2d55; --accent2:#ff6b3d; --line:rgba(0,0,0,.06);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0b0c0f; --card:#17181c; --text:#f5f5f7; --sub:#9ca3af; --line:rgba(255,255,255,.08); }
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{
+    margin:0;background:var(--bg);color:var(--text);
+    font:16px/1.5 -apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    padding:28px 18px 40px;
+  }
+  .wrap{max-width:520px;margin:0 auto}
+  .hero{text-align:center;padding:8px 0 22px}
+  .badge{
+    display:inline-block;font-size:12px;font-weight:600;letter-spacing:.4px;
+    color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent2));
+    padding:5px 12px;border-radius:999px;margin-bottom:14px;
+  }
+  h1{font-size:26px;line-height:1.25;margin:0 0 8px;letter-spacing:-.4px}
+  .sub{color:var(--sub);font-size:14px;margin:0}
+  .grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0;
+  }
+  .tpl{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:8px 6px 9px;text-align:center;
+  }
+  .tpl img{
+    width:100%;height:64px;object-fit:contain;display:block;margin-bottom:5px;
+  }
+  .tpl span{font-size:12px;color:var(--sub)}
+  .btn{
+    display:block;text-align:center;text-decoration:none;font-weight:700;
+    padding:16px;border-radius:14px;margin:12px 0;font-size:16px;
+  }
+  .primary{
+    color:#fff;background:linear-gradient(135deg,var(--accent),var(--accent2));
+    box-shadow:0 8px 22px rgba(255,45,85,.28);
+  }
+  .ghost{color:var(--text);background:var(--card);border:1px solid var(--line)}
+  .note{
+    background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:14px 16px;font-size:13px;color:var(--sub);line-height:1.7;margin-top:18px;
+  }
+  .note b{color:var(--text);font-weight:600}
+  .note ol{margin:6px 0 0;padding-left:18px}
+  .note li{margin:3px 0}
+  code{
+    background:rgba(127,127,127,.14);padding:1px 5px;border-radius:5px;
+    font-size:12px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  .foot{text-align:center;color:var(--sub);font-size:12px;margin-top:22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <div class="badge">QQ彩虹糖</div>
+    <h1>表情模板包</h1>
+    <p class="sub">11 套 · 87 帧 · 装完直接发关键词</p>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <a class="btn primary" id="dl" href="https://hao934934.github.io/debs/QQRC-Memes-20261123-2_iphoneos-arm64.deb">
+    一键下载全部模板
+  </a>
+  <a class="btn ghost" href="sileo://source/https://hao934934.github.io/">
+    在软件源里安装
+  </a>
+
+  <div class="note">
+    <b>怎么用</b>
+    <ol>
+      <li>点上面的按钮，选择「用 Sileo 打开」，安装模板包。</li>
+      <li>模板会自动装到 <code>/var/mobile/Documents/QQRainbowCandy/memes_ext</code>。</li>
+      <li>回到 QQ，在输入框发 <b>摸头</b>、<b>抱抱</b>、<b>亲亲</b> 等关键词，就会用你的头像生成动图发出去。</li>
+      <li>想用别人的头像：发「摸头 @某人」。</li>
+    </ol>
+    <p style="margin:10px 0 0">需要先安装 <b>QQ彩虹糖 1.48</b> 及以上版本。装完模板包不用重启 QQ，几秒内自动生效。</p>
+  </div>
+
+  <div class="foot">素材来自 meme-generator（MIT）</div>
+</div>
+
+<script>
+  // 模板首帧直接从软件源取，顺手把清单渲染出来
+  const tpls = [
+    ['petpet','摸头'],['pat','拍'],['hammer','锤'],['eat','吃'],
+    ['kick_ball','踢球'],['bite','啃'],['throw','丢'],['pinch','捏脸'],
+    ['hug','抱抱'],['kiss','亲亲'],['rub','蹭蹭']
+  ];
+  const grid = document.getElementById('grid');
+  for (const [key, name] of tpls) {
+    const d = document.createElement('div');
+    d.className = 'tpl';
+    d.innerHTML = `<img src="https://hao934934.github.io/memes/${key}/0.png" alt="${name}" loading="lazy"><span>${name}</span>`;
+    grid.appendChild(d);
+  }
+</script>
+</body>
+</html>
