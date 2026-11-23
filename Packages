@@ -621,6 +621,7 @@ Description: QQ彩虹糖 1.48 · 尺寸不再发糊
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.48.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
