@@ -19,7 +19,7 @@
     padding:28px 18px 40px;
     overflow-x:hidden;
   }
-  .wrap{max-width:520px;margin:0 auto}
+  .wrap{width:100%;max-width:520px;margin:0 auto}
   .hero{text-align:center;padding:8px 0 22px}
   .badge{
     display:inline-block;font-size:12px;font-weight:600;letter-spacing:.4px;
@@ -29,11 +29,13 @@
   h1{font-size:26px;line-height:1.25;margin:0 0 8px;letter-spacing:-.4px}
   .sub{color:var(--sub);font-size:14px;margin:0}
   .grid{
-    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:22px 0;
+    display:flex;flex-wrap:wrap;gap:10px;margin:22px 0;
   }
   .tpl{
+    flex:0 0 calc((100% - 20px) / 3);
+    width:calc((100% - 20px) / 3);
     background:var(--card);border:1px solid var(--line);border-radius:14px;
-    padding:8px 6px 9px;text-align:center;min-width:0;
+    padding:8px 6px 9px;text-align:center;min-width:0;overflow:hidden;
   }
   .tpl img{
     width:100%;max-width:100%;height:64px;object-fit:contain;display:block;margin-bottom:5px;
@@ -104,7 +106,7 @@
   for (const [key, name] of tpls) {
     const d = document.createElement('div');
     d.className = 'tpl';
-    d.innerHTML = `<img src="https://hao934934.github.io/memes/${key}/0.png" alt="${name}" loading="lazy"><span>${name}</span>`;
+    d.innerHTML = `<img src="https://hao934934.github.io/memes/${key}/0.png" alt="${name}"><span>${name}</span>`;
     grid.appendChild(d);
   }
 </script>
