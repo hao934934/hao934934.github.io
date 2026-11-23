@@ -91,7 +91,7 @@ def human_size(kb):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--changelog', default=os.path.join(ROOT, 'CHANGELOG.md'))
-    ap.add_argument('--keep', type=int, default=8)
+    ap.add_argument('--keep', type=int, default=12)
     args = ap.parse_args()
 
     ov = json.load(open(OVERRIDES, encoding='utf-8'))
