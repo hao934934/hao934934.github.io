@@ -50,7 +50,9 @@ for b in txt.split('\n\n'):
         current=next((l.split(':',1)[1].strip() for l in lines if l.startswith('Version:')), '')
         if changes and (not version or version==current) and pk:
             raw_desc=next((l.split(':',1)[1].strip() for l in nl if l.startswith('Description:')), '')
-            detail=ds.replace('\n ', '\n') if ds else raw_desc
+            # detail：详情页专用的 markdown（标题 + 正文 + 版本/架构/体积），
+            # 没有就用 Description 原文；sync-meta.py 会从 deb 的 control 生成。
+            detail=(o.get('detail') or '').strip() or (ds.replace('\n ', '\n') if ds else raw_desc)
             safe=''.join(c if c.isascii() and (c.isalnum() or c in '._-') else '_' for c in pk)
             safe_ver=''.join(c if c.isascii() and (c.isalnum() or c in '._-') else '_' for c in current)
             dest='depictions/'+safe+'_'+safe_ver+'.json'

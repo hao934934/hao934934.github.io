@@ -6,12 +6,12 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 😘豪啊豪
-Support: https://hao934934.github.io/
+Support: https://hao934934.github.io
 Icon: https://hao934934.github.io/CydiaIcon.png
 Banner: https://hao934934.github.io/hao-banner.jpg
 MD5Sum:
- 5958546e93e972a4d966cf1b9176ff10  31379 Packages
- 41069038e2581d9dcb618cd663ec48ea  10966 Packages.gz
+ e4cf4ff5c8a525fb3fa77fc8f433a2cf  32482 Packages
+ a3e0bdc2ccb9851a3e3492530700ca78  11144 Packages.gz
 SHA256:
- 19fa25ad7c442707f9b53749b0d083f80857e478003c644818e96faaecae358a  31379 Packages
- 3ce7f286fdd8139ff28aec8610cfda36c638f21efdd5ba6a615f1edbda865815  10966 Packages.gz
+ 843e4465c72311f3f84cf1eecf6f71eb13b6f006cc921b5ae5abfe97ae429616  32482 Packages
+ 31320c80ebdd3b22afa9efee5e7de1b8ffa9ad1ee637ca82bcac0d42de675e4e  11144 Packages.gz

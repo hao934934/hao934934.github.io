@@ -13,6 +13,12 @@ fi
 # 注意：脚本开启了 set -e，可选的 override 步骤必须用 if 包裹，
 # 否则没有 overrides.json 时 [ -f ] 返回 1 会让整个脚本提前退出，
 # 导致 Packages.gz / Release 停留在旧状态，源刷新时报哈希不匹配。
+# 详情页读取 deb 内容：把 debs/ 里最新包的 control（Version/Description/体积）
+# 同步进 overrides.json，避免「源上写旧版本、包里是新版本」。
+# CHANGELOG 存在时顺带把最近几个版本段同步成「更新日志」tab。
+if [ -f overrides.json ] && [ -f scripts/sync-meta.py ] && command -v python3 >/dev/null 2>&1; then
+  python3 scripts/sync-meta.py --changelog "${CHANGELOG:-$ROOT/CHANGELOG.md}" || echo "(control 同步跳过)"
+fi
 if [ -f overrides.json ] && command -v python3 >/dev/null 2>&1; then
   python3 scripts/apply-overrides.py || echo "(override 应用跳过)"
 fi
