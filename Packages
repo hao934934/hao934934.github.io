@@ -520,7 +520,6 @@ Description: QQ彩虹糖 1.42 · QQ 增强
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.42.json
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
@@ -567,7 +566,24 @@ SHA1: f130ac699420fc625921f8f704ca75d9380fdb29
 SHA256: c979a96ebcb4f7e2d5e1451acfcc9e78d25db0c27874a40efb79ad2cd9de87df
 SHA512: 99f2062952b43b07c63770cfce9ee5fc426ed104bd45a2abc7decab66dcb09a38f3e51cfcfdd7dd3f47a746cd1803a33f5d1c5f8fc08cbe70268eb8f1ef8f53f
 Section: 备份
-Description: QQ彩虹糖 1.45 · 修复 KK 音色文字转语音的问题
+Description: QQ彩虹糖 1.45 · QQ 增强
+ 防撤回（含群主/管理员撤回别人的消息）、群聊语音保存、点歌、文字转语音、模拟机型（55 款 iPhone / iPad / iPod）、QQ 空间去广告、数据目录独立存放，QQ 升级不丢素材与语音包。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.46
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.46_iphoneos-arm64.deb
+Size: 1455896
+MD5sum: 35ed49c0742d53c9ef278381218432a8
+SHA1: 7becfd46b33117e4734c98397817c742314cb59a
+SHA256: 3d825e4560436d93cbd8f220a2e25ca0bdb320c46da3179b762314c86cf47647
+SHA512: 00578b258c4a91602f1586568bc94833b550521902c7a5dffc75d20f986068012b3ea0a2f91a305cb426eaa330fda09ec83c590c2524524bb6b1ef2335202aed
+Section: 备份
+Description: QQ彩虹糖 1.46 · 新增表情包变速
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
