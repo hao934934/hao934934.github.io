@@ -538,6 +538,7 @@ Description: QQ彩虹糖 1.42 · QQ 增强
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.42.json
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
