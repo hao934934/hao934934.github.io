@@ -673,7 +673,24 @@ Description: QQ彩虹糖 1.51 · QQ 增强
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.51.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.52
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.52_iphoneos-arm64.deb
+Size: 1572716
+MD5sum: 89d96ee9a938b8e31a762128e53641c3
+SHA1: 9dd9ef9071d452a9192c3ef7db9c9c5873d3694a
+SHA256: 0a7ecadb993c70a6e298f8d7d459c50aaa6125a5f0717f044cb107090eeee83c
+SHA512: b7c4e63cc7584fa71a427743112f0150f55add4e45a6142db457dc0857362db0df2390378912f8088e6b54fb43f104b8a563f60cd9d88cc9a4dc30c354ea02f0
+Section: 备份
+Description: QQ彩虹糖 1.52 · QQ 增强
+ 防撤回（含群主/管理员撤回别人的消息）、群聊语音保存、点歌、文字转语音、模拟机型（55 款 iPhone / iPad / iPod）、QQ 空间去广告、数据目录独立存放，QQ 升级不丢素材与语音包。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.52.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
