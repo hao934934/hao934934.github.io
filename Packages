@@ -690,24 +690,7 @@ Description: QQ彩虹糖 1.52 · QQ 增强
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
-Version: 9.3.78-1.53
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.78-1.53_iphoneos-arm64.deb
-Size: 1572972
-MD5sum: 2aa08018d521263fda0cf45a0031e750
-SHA1: 3e1ae17eacf642ccba4075e6193217702bee55ee
-SHA256: 33f0b28ed35860199b03f0ad4691e8b5d4cd0afbbd2914688dea5b71e07294a1
-SHA512: 5e69958a14c4dd183c30da8b0cf0e93c01df00ecc668af21b47b023507a84dcd7e65bfc40e41fdc6a292b16ff6790a1720d0636092eb4e6ea5e78b29b0feda98
-Section: 备份
-Description: QQ彩虹糖 1.53 · QQ 增强
- 防撤回（含群主/管理员撤回别人的消息）、群聊语音保存、点歌、文字转语音、模拟机型（55 款 iPhone / iPad / iPod）、QQ 空间去广告、数据目录独立存放，QQ 升级不丢素材与语音包。
-Name: QQ彩虹糖
-Author: Hao
-Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.53.json
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.52.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
@@ -774,3 +757,22 @@ Description: 一键建源 3.00 横幅修复备份版
  包含版本折叠、更新日志、上传选择分类和横幅上传修复。
  安装路径：/var/jb/Applications/一键建源.app
 Name: 一键建源
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.54
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.54_iphoneos-arm64.deb
+Size: 1572976
+MD5sum: 914fb9e544376f136f0134d3a8e1aa10
+SHA1: 364d0dafd62267fcfdff5f4082abe0aaf08258d1
+SHA256: 50a3851dd5c207cb4a9cfe2a7712d373e9ce19c1049df5dfc7fe0ef56218b63a
+SHA512: 3cc2d1c740451be2117ddd76b416da3b3825409507f03d7d824460845faca2ec6f76cd546d1c3850ba667096b2093e8be83b07a98225e481af0ef41014407728
+Section: 备份
+Description: QQ彩虹糖 1.54 · QQ 增强
+ 防撤回（含群主/管理员撤回别人的消息）、群聊语音保存、点歌、文字转语音、模拟机型（55 款 iPhone / iPad / iPod）、QQ 空间去广告、数据目录独立存放，QQ 升级不丢素材与语音包。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.54.json
+
