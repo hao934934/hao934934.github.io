@@ -729,7 +729,29 @@ Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、�
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.55.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.56
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.56_iphoneos-arm64.deb
+Size: 1597762
+MD5sum: b90393147fc49c5dc9d1a25c86aa457b
+SHA1: 5c7ff2965a7d42058806f7095fe2dc397e0e0ce5
+SHA256: b8b58832a1ab79b135e9e20c586b6312610a6b80e01732e859f2700e8a8a36f2
+SHA512: 7c6b03cf8ed901a3ee1bb8793bf184908662d8e7a336ec2ef6b50a41e5787edfc946fb14d0b8ae5e7f997b18100c6fe657af95c438f99836d124caa6daf1e5dd
+Section: 备份
+Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、机型模拟、空间去广告
+ 面向 QQ 9.3.78 的增强插件。防撤回覆盖群主与管理员撤回他人消息；群聊语音可保存；
+ 内置 254 套表情包模板，选中即用本人头像合成动图；支持点歌、文字转语音、
+ 55 款 iPhone / iPad / iPod 机型模拟；QQ 空间去广告；素材与语音包独立存放，
+ QQ 升级不丢。
+ .
+ 1.56：对方 QQ 号改用私聊控制器会话上下文读取（getAIOChatContext），群聊不会串号，也不再带出头像挂件红点。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.56.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
