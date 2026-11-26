@@ -795,7 +795,29 @@ Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、�
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.58-2.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.58-3
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.58-3_iphoneos-arm64.deb
+Size: 1609010
+MD5sum: e30d8a222826f2d3aa0ace8c3072b707
+SHA1: 922e84aa1d970e07885b67ba88538765b0fa202a
+SHA256: 1d24db3e62269f9285869b7bf5774305bfed0478af3ae9f52c783793860c279d
+SHA512: 29b493d770bfb11817c4a53240f513c8c2e7944b390678bad1a15ccfe6cc0d68490f06da90c97092c747feeaf62309d8591f09d334ecb88a113b42129240f7b3
+Section: 备份
+Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、机型模拟、空间去广告
+ 面向 QQ 9.3.78 的增强插件。防撤回覆盖群主与管理员撤回他人消息；群聊语音可保存；
+ 表情包模板从软件源一键导入，选中即用本人头像合成动图；支持点歌、文字转语音、
+ 55 款 iPhone / iPad / iPod 机型模拟；QQ 空间去广告；素材与语音包独立存放，
+ QQ 升级不丢。
+ .
+ 1.58：修滑动发涩、进群卡一下 —— 视图树扫描不再逐节点抛异常、类表改后台重建、群聊直接跳过读号、日志改后台落盘；并修表情包面板名字与预览图错位；表情包模板支持一帧多头像位（拼贴类模板），爱心形状改为 27 个圆头像拼成心形。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.58-3.json
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
