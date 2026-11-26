@@ -1,0 +1,29 @@
+{
+ "class": "DepictionTabView",
+ "minVersion": "0.1",
+ "headerImage": "https://hao934934.github.io/hao-banner.jpg",
+ "tabs": [
+  {
+   "tabname": "详情",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "### QQ彩虹糖 1.59 · QQ 增强\n\n防撤回（含群主/管理员撤回别人的消息）、群聊语音保存、点歌、文字转语音、模拟机型（55 款 iPhone / iPad / iPod）、QQ 空间去广告、数据目录独立存放，QQ 升级不丢素材与语音包。\n\n- 版本：9.3.78-1.59\n- 包名：local.qqallinone.control\n- 架构：iphoneos-arm64（rootless）\n\n> 本页内容直接取自安装包 control。",
+     "useSpacing": true
+    }
+   ]
+  },
+  {
+   "tabname": "更新日志",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "### 1.59 · 2026-11-26\n\n表情包面板加了收藏。其余功能没动。\n\n**一、表情包面板加了收藏**\n\n模板越攒越多，常用的那几套每次都要往下翻。现在长按任意模板可以「收藏 / 取消收藏」，\n收藏过的格子右上角带一个橙色星标，并且统一排到列表最前。\n\n顶栏「对方」右边多了一个「收藏」按钮，点一下只看收藏（再点回到全部），有收藏时按钮上带数量。\n收藏按模板 key 存在 `NSUserDefaults` 里，重启 QQ 不丢；模板包重新导入后位置变了也不会串，\n被删掉的模板下次重载时自动从收藏里剔掉。\n",
+     "useSpacing": true
+    }
+   ]
+  }
+ ]
+}
