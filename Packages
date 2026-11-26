@@ -776,28 +776,6 @@ Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
 
 Package: local.qqallinone.control
 Architecture: iphoneos-arm64
-Version: 9.3.78-1.58-2
-Maintainer: Hao
-Filename: debs/local.qqallinone.control_9.3.78-1.58-2_iphoneos-arm64.deb
-Size: 1603806
-MD5sum: 5b7d3cdb8ca2c9f175d7ef784b1fc44c
-SHA1: 28699319ef1327d146e5c02f2fcd178d576669b5
-SHA256: 352cf4037796359869c28cc12600c9f605861c6c9a1dd546819299893044de43
-SHA512: 40c9f94a7e0472a4047657024ff345aad4bbfd76548eab6b7635de144b8b295979f08275ccbcbeb02bad51320f5964a64441d26934f179ffe51eb9a1e9a11fe8
-Section: 备份
-Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、机型模拟、空间去广告
- 面向 QQ 9.3.78 的增强插件。防撤回覆盖群主与管理员撤回他人消息；群聊语音可保存；
- 表情包模板从软件源一键导入，选中即用本人头像合成动图；支持点歌、文字转语音、
- 55 款 iPhone / iPad / iPod 机型模拟；QQ 空间去广告；素材与语音包独立存放，
- QQ 升级不丢。
- .
- 1.58：修滑动发涩、进群卡一下 —— 视图树扫描不再逐节点抛异常、类表改后台重建、群聊直接跳过读号、日志改后台落盘；并修表情包面板名字与预览图错位；表情包模板支持一帧多头像位（拼贴类模板），爱心形状改为 27 个圆头像拼成心形。
-Name: QQ彩虹糖
-Author: Hao
-Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-
-Package: local.qqallinone.control
-Architecture: iphoneos-arm64
 Version: 9.3.78-1.58
 Maintainer: Hao
 Filename: debs/local.qqallinone.control_9.3.78-1.58_iphoneos-arm64.deb
