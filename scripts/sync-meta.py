@@ -38,8 +38,14 @@ def deb_fields(path):
 
 
 def ver_key(v):
-    m = re.search(r'-(\d+(?:\.\d+)*)$', v or '')
-    return tuple(int(x) for x in m.group(1).split('.')) if m else (0,)
+    """按 dpkg 风格比较：9.3.78-1.59 应该大于 9.3.78-1.58-2。
+
+    以前只取版本末尾那段数字：-1.58-2 抽到 (2)、-1.59 抽到 (1, 59)，
+    比较时 (2) > (1, 59)，于是上一版本的补丁轮次反而被当成最新，
+    overrides 的 desc / detail / descVersion 会停在旧版本。
+    现在把整串数字都拿出来逐段比，(9,3,78,1,59) > (9,3,78,1,58,2)。
+    """
+    return tuple(int(x) for x in re.findall(r'\d+', v or '')) or (0,)
 
 
 def pick_latest(pkg):
