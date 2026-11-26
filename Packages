@@ -795,7 +795,29 @@ Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、�
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.58.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.59
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.59_iphoneos-arm64.deb
+Size: 1412704
+MD5sum: b89e050d056fecf71469cf0db2ad8b05
+SHA1: 25e3dd5956a6a5f22f1de840bdd4182e4d8fb646
+SHA256: 288aba64ab4c98e1028e77bc7fbaa1d7e2069621b7ad10913794ffc69a2d3093
+SHA512: 70172c3e8019adc0dccc4ee8899dae15fd9ff7a591a0079b358af968a74a37a82e1d168548dd28e1fe84c9c024de76fca47b4bd79e699039cf6a2420cefd547a
+Section: 备份
+Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、机型模拟、空间去广告
+ 面向 QQ 9.3.78 的增强插件。防撤回覆盖群主与管理员撤回他人消息；群聊语音可保存；
+ 表情包模板从软件源一键导入，选中即用本人头像合成动图；支持点歌、文字转语音、
+ 55 款 iPhone / iPad / iPod 机型模拟；QQ 空间去广告；素材与语音包独立存放，
+ QQ 升级不丢。
+ .
+ 1.59：表情包面板加了收藏 —— 长按模板收藏/取消，收藏置顶并带星标，顶栏「收藏」只看收藏。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.59.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e

@@ -10,8 +10,8 @@ Support: https://hao934934.github.io/
 Icon: https://hao934934.github.io/CydiaIcon.png
 Banner: https://hao934934.github.io/hao-banner.jpg
 MD5Sum:
- 658fc461575087c9d7c79ef08fad191b  40848 Packages
- 7c991c99f263b43b9ed026dec1f32131  13462 Packages.gz
+ 310da800db629e893a12002e73bca20d  42032 Packages
+ 00df50d905a5077d59503c5a1e1b6702  13732 Packages.gz
 SHA256:
- f717ecebdbfc0942ce5dfdb2b5b555ff08dff2b02f98cab80b9488df3ae3d094  40848 Packages
- 40cf27beed389ce285cc63e0787195d7f55bd9fcb4b13cee5f62384ced72eaaf  13462 Packages.gz
+ 1edcb0e0477cb92e41dcf94a8839243473924b5974e63d7ce9af419a581c1651  42032 Packages
+ 0f633cf8bcb1cb5d7bfcc959e8af0708ec4430d7b85804dafea04c208b2855f0  13732 Packages.gz
