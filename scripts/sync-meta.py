@@ -118,7 +118,10 @@ def main():
         desc = f.get('Description', '').strip()
         lines = [x.strip() for x in desc.splitlines() if x.strip()]
         title = lines[0] if lines else pkg
-        body = ' '.join(lines[1:])
+        # control 的长描述用「 . 」分段（apt 惯例）。以前整段并成一行，
+        # 版本摘要会挤在功能说明末尾；这里还原成两段。
+        raw_body = ' '.join(lines[1:])
+        body = '\n\n'.join(x.strip() for x in re.split(r'\s\.\s|\.$', raw_body) if x.strip())
 
         detail = [f'### {title}']
         if body:
