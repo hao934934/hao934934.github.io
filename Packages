@@ -779,11 +779,11 @@ Architecture: iphoneos-arm64
 Version: 9.3.78-1.58
 Maintainer: Hao
 Filename: debs/local.qqallinone.control_9.3.78-1.58_iphoneos-arm64.deb
-Size: 1603672
-MD5sum: 71ac2f60e21f081e9d10fb2fbcd64c14
-SHA1: 4058c2bdbd7834c72d23d6dc3a67cdbccd4db59c
-SHA256: f537cee98658d2b0ab64050e2736826b763fd54851a7c1f6b2b4f49f8bb9bb97
-SHA512: dd35ea5a322a6b3b873ed0a287337e94981557a3fd62604b011ca6b199e573dc0f7d1faf91387f33946fe8900ae0098dc4a28fa979746f74eacf462dbe24716c
+Size: 1603760
+MD5sum: b5263d738662940157d07c2c91f59e57
+SHA1: e5af818ac02d723db56fe643a86f6e8a559ee515
+SHA256: 23af9f7a9683c65ed3687d609c884f46d0f81811834d4402682ed8ef17e01d21
+SHA512: 2f5b3ad487b302ef555ffb5630a45105f3459f05202e9aa7d91052c9ca8b83f3b448fef024b5a70a5c9a66c3258ff102aea32f585c246a0cf066c4414443be1f
 Section: 备份
 Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、机型模拟、空间去广告
  面向 QQ 9.3.78 的增强插件。防撤回覆盖群主与管理员撤回他人消息；群聊语音可保存；
@@ -791,7 +791,7 @@ Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、�
  55 款 iPhone / iPad / iPod 机型模拟；QQ 空间去广告；素材与语音包独立存放，
  QQ 升级不丢。
  .
- 1.58：修滑动发涩、进群卡一下 —— 视图树扫描不再逐节点抛异常、类表改后台重建、群聊直接跳过读号、日志改后台落盘；并修表情包面板名字与预览图错位。
+ 1.58：修滑动发涩、进群卡一下 —— 视图树扫描不再逐节点抛异常、类表改后台重建、群聊直接跳过读号、日志改后台落盘；并修表情包面板名字与预览图错位；表情包模板支持一帧多头像位（拼贴类模板）。
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
