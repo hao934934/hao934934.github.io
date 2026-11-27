@@ -861,7 +861,29 @@ Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、�
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.61.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.62
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.62_iphoneos-arm64.deb
+Size: 1614674
+MD5sum: ed9934edc36676fba0fabde0709cb4c1
+SHA1: a037d335e39347347df8470c092d2914495a31f9
+SHA256: c78afb8909cf753d94b007d7761b81ed1fdd1ca38ff346dc8ddd26028daba464
+SHA512: 31a0a4585be0103f1c15429a3038767d93a26a444f0ca8865614e2c6b0bb2fc496b0d42a3fb4bedb62b9ef0480b73ce57c9c96c70bf086d9e9633d55deeb2d5d
+Section: 备份
+Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、机型模拟、空间去广告
+ 面向 QQ 9.3.78 的增强插件。防撤回覆盖群主与管理员撤回他人消息；群聊语音可保存；
+ 表情包模板从软件源一键导入，选中即用本人头像合成动图；支持点歌、文字转语音、
+ 55 款 iPhone / iPad / iPod 机型模拟；QQ 空间去广告；素材与语音包独立存放，
+ QQ 升级不丢。
+ .
+ 1.62：修 QQ 9.3.86 上进私聊闪退（读对方号时把数值当对象解引用）。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.62.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
