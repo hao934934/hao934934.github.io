@@ -817,7 +817,29 @@ Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、�
 Name: QQ彩虹糖
 Author: Hao
 Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
-SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.59.json
+
+Package: local.qqallinone.control
+Architecture: iphoneos-arm64
+Version: 9.3.78-1.60
+Maintainer: Hao
+Filename: debs/local.qqallinone.control_9.3.78-1.60_iphoneos-arm64.deb
+Size: 1613656
+MD5sum: 8189863f6aabb02698f7ef24a1f72977
+SHA1: 8803901a227819fb81177c04891a9472b8a4cce0
+SHA256: 09d3686409f53ba3912b0b18ddcd483fa83bc91bbf1403db3a067d5ca2b4a786
+SHA512: 1d111ec330f48c9a2af00355e80e1d836ac97584f2d8ad7fdf646db1d94ccc049c4ed15de7215ef0863132c5f2909407addf5d964e0a7cad1d1bda8441897969
+Section: 备份
+Description: QQ 增强：防撤回、语音保存、点歌、文字转语音、机型模拟、空间去广告
+ 面向 QQ 9.3.78 的增强插件。防撤回覆盖群主与管理员撤回他人消息；群聊语音可保存；
+ 表情包模板从软件源一键导入，选中即用本人头像合成动图；支持点歌、文字转语音、
+ 55 款 iPhone / iPad / iPod 机型模拟；QQ 空间去广告；素材与语音包独立存放，
+ QQ 升级不丢。
+ .
+ 1.60：登录页右下角可直接切「手机 / iPad」身份，点了立即生效；界面始终按手机排。
+Name: QQ彩虹糖
+Author: Hao
+Icon: https://hao934934.github.io/icons/qqrainbowcandy.png
+SileoDepiction: https://hao934934.github.io/depictions/local.qqallinone.control_9.3.78-1.60.json
 
 Package: com.abyss.repomgr
 Architecture: iphoneos-arm64e
